@@ -1,0 +1,1760 @@
+[
+    {
+        "id": "qf1",
+        "problem": "बच्चे गिनती नहीं सीख पा रहे",
+        "problem_en": "Students not learning counting",
+        "problem_hi": "बच्चे गिनती नहीं सीख पा रहे",
+        "solution_summary": "Use counting songs, finger counting, and physical objects like stones or sticks",
+        "grade": 1,
+        "subject": "Math",
+        "topic": "Counting",
+        "usage_count": 234,
+        "success_rate": 0.89,
+        "language": "kn",
+        "what_to_say": [
+            "आओ बच्चों, हम गिनती का खेल खेलते हैं",
+            "अपनी उंगलियां दिखाओ"
+        ],
+        "what_to_say_hi": [
+            "आओ बच्चों, हम गिनती का खेल खेलते हैं",
+            "अपनी उंगलियां दिखाओ",
+            "एक, दो, तीन गिनो"
+        ],
+        "what_to_say_en": [
+            "Come children, let's play a counting game",
+            "Show me your fingers",
+            "Count one, two, three"
+        ],
+        "activity": "Finger counting game with rhymes",
+        "activity_hi": "उंगलियों से गिनती का खेल",
+        "activity_en": "Finger counting game with rhymes",
+        "problem_kn": "ಮಕ್ಕಳು ಎಣಿಸಲು ಕಲಿಯುತ್ತಿಲ್ಲ",
+        "what_to_say_kn": [
+            "ಬನ್ನಿ ಮಕ್ಕಳೇ, ಎಣಿಸುವ ಆಟ ಆಡೋಣ",
+            "ನಿಮ್ಮ ಬೆರಳುಗಳನ್ನು ತೋರಿಸಿ",
+            "ಒಂದು, ಎರಡು, ಮೂರು ಎಣಿಸಿ"
+        ],
+        "activity_kn": "ಬೆರಳು ಎಣಿಸುವ ಆಟ"
+    },
+    {
+        "id": "qf2",
+        "problem": "Students struggling with addition",
+        "problem_hi": "जोड़ना समझ नहीं आ रहा",
+        "solution_summary": "Use physical objects, draw on floor, use peer teaching",
+        "grade": 2,
+        "subject": "Math",
+        "topic": "Addition",
+        "usage_count": 189,
+        "success_rate": 0.85,
+        "language": "kn",
+        "what_to_say": [
+            "चलो कंकड़ों से जोड़ना सीखते हैं",
+            "दो कंकड़ और तीन कंकड़ मिलाओ"
+        ],
+        "activity": "Stone counting and grouping",
+        "what_to_say_en": [
+            "Let's learn addition with stones",
+            "Put two stones and three stones together",
+            "How many total?"
+        ],
+        "what_to_say_hi": [
+            "चलो कंकड़ों से जोड़ना सीखते हैं",
+            "दो कंकड़ और तीन कंकड़ मिलाओ"
+        ],
+        "problem_en": "Addition issue",
+        "activity_en": "Stone counting and grouping",
+        "activity_hi": "Stone counting and grouping",
+        "problem_kn": "ಸೇರ್ಪಡೆ ಅರ್ಥವಾಗುತ್ತಿಲ್ಲ",
+        "what_to_say_kn": [
+            "ಕಲ್ಲುಗಳೊಂದಿಗೆ ಸೇರ್ಪಡೆ ಕಲಿಯೋಣ",
+            "ಎರಡು ಮತ್ತು ಮೂರು ಕಲ್ಲುಗಳನ್ನು ಒಟ್ಟುಗೂಡಿಸಿ",
+            "ಒಟ್ಟು ಎಷ್ಟು?"
+        ],
+        "activity_kn": "ಕಲ್ಲುಗಳ ಎಣಿಕೆ ಮತ್ತು ಗುಂಪು ಮಾಡುವಿಕೆ"
+    },
+    {
+        "id": "qf3",
+        "problem": "बच्चों का ध्यान नहीं लग रहा",
+        "problem_en": "Students not paying attention",
+        "solution_summary": "Use action songs, movement breaks, storytelling",
+        "grade": 3,
+        "subject": "General",
+        "topic": "Attention",
+        "usage_count": 312,
+        "success_rate": 0.92,
+        "language": "kn",
+        "what_to_say": [
+            "सब खड़े हो जाओ",
+            "आओ 'सिर, कंधे, घुटने, पैर' गाना गाएं"
+        ],
+        "activity": "Action song break - Head Shoulders Knees Toes",
+        "what_to_say_en": [
+            "Everyone stand up!",
+            "Let's sing Head, Shoulders, Knees, Toes",
+            "Clap your hands!"
+        ],
+        "what_to_say_hi": [
+            "सब खड़े हो जाओ",
+            "आओ 'सिर, कंधे, घुटने, पैर' गाना गाएं"
+        ],
+        "problem_hi": "बच्चों का ध्यान नहीं लग रहा",
+        "activity_en": "Action song break - Head Shoulders Knees Toes",
+        "activity_hi": "Action song break - Head Shoulders Knees Toes",
+        "problem_kn": "ಗಮನ ಕೊಡುತ್ತಿಲ್ಲ",
+        "what_to_say_kn": [
+            "ಎಲ್ಲರೂ ಎದ್ದು ನಿಲ್ಲಿ",
+            "ತಲೆ, ಭುಜ, ಮೊಣಕಾಲು, ಕಾಲ್ಬೆರಳು ಹಾಡೋಣ",
+            "ಚಪ್ಪಾಳೆ ತಟ್ಟಿ!"
+        ],
+        "activity_kn": "ಚಟುವಟಿಕೆ ಹಾಡು - ತಲೆ ಭುಜ ಹಾಡು"
+    },
+    {
+        "id": "qf4",
+        "problem": "Reading comprehension weak",
+        "problem_hi": "पढ़ने की समझ कमजोर है",
+        "solution_summary": "Picture walk, prediction, read-aloud with questions",
+        "grade": 2,
+        "subject": "Hindi",
+        "topic": "Reading Comprehension",
+        "usage_count": 156,
+        "success_rate": 0.81,
+        "language": "kn",
+        "what_to_say": [
+            "पहले तस्वीर देखो",
+            "क्या होगा इस कहानी में?"
+        ],
+        "activity": "Picture prediction before reading",
+        "what_to_say_en": [
+            "Look at the picture first",
+            "What do you think will happen?",
+            "Let's read together"
+        ],
+        "what_to_say_hi": [
+            "पहले तस्वीर देखो",
+            "क्या होगा इस कहानी में?"
+        ],
+        "problem_en": "Reading Comprehension issue",
+        "activity_en": "Picture prediction before reading",
+        "activity_hi": "Picture prediction before reading",
+        "problem_kn": "ಓದುವ ಗ್ರಹಿಕೆ ಸಮಸ್ಯೆಯಾಗಿದೆ",
+        "what_to_say_kn": [
+            "ಮೊದಲು ಚಿತ್ರ ನೋಡಿ",
+            "ಈ ಕಥೆಯಲ್ಲಿ ಏನಾಗುತ್ತದೆ ಎಂದು ಊಹಿಸಿ?",
+            "ಒಟ್ಟಿಗೆ ಓದೋಣ"
+        ],
+        "activity_kn": "ಓದುವ ಮೊದಲು ಚಿತ್ರ ಊಹೆ"
+    },
+    {
+        "id": "qf5",
+        "problem": "Subtraction confusion with borrowing",
+        "problem_hi": "घटाने में उधार लेना समझ नहीं आ रहा",
+        "solution_summary": "Use bundles of sticks, break tens into ones",
+        "grade": 3,
+        "subject": "Math",
+        "topic": "Subtraction",
+        "usage_count": 145,
+        "success_rate": 0.78,
+        "language": "kn",
+        "what_to_say": [
+            "जब इकाई में कम है तो दहाई से उधार लेंगे",
+            "एक बंडल खोलो"
+        ],
+        "activity": "Stick bundle unbundling activity",
+        "what_to_say_en": [
+            "When we have less in ones, we borrow from tens",
+            "Open one bundle",
+            "Now subtract"
+        ],
+        "what_to_say_hi": [
+            "जब इकाई में कम है तो दहाई से उधार लेंगे",
+            "एक बंडल खोलो"
+        ],
+        "problem_en": "Subtraction issue",
+        "activity_en": "Stick bundle unbundling activity",
+        "activity_hi": "Stick bundle unbundling activity",
+        "problem_kn": "ವ್ಯವಕಲನದಲ್ಲಿ ಗೊಂದಲ",
+        "what_to_say_kn": [
+            "ಬಿಡಿಗಳಲ್ಲಿ ಕಡಿಮೆ ಇರುವಾಗ ಹತ್ತುಗಳಿಂದ ಎರವಲು ಪಡೆಯುತ್ತೇವೆ",
+            "ಒಂದು ಕಟ್ಟನ್ನು ತೆರೆಯಿರಿ",
+            "ಈಗ ಕಳೆಯಿರಿ"
+        ],
+        "activity_kn": "ಕಡ್ಡಿಗಳ ಕಟ್ಟು ಬಿಡಿಸುವ ಚಟುವಟಿಕೆ"
+    },
+    {
+        "id": "qf6",
+        "problem": "वर्णमाला याद नहीं हो रही",
+        "problem_en": "Alphabet memorization difficulty",
+        "solution_summary": "Use alphabet songs, body letters, sand writing",
+        "grade": 1,
+        "subject": "Hindi",
+        "topic": "Alphabet",
+        "usage_count": 267,
+        "success_rate": 0.88,
+        "language": "kn",
+        "what_to_say": [
+            "आओ अक्षर गाना गाएं",
+            "हवा में अक्षर लिखो"
+        ],
+        "activity": "Air writing and alphabet song",
+        "what_to_say_en": [
+            "Let's sing the alphabet song",
+            "Write in the air",
+            "Trace with your finger"
+        ],
+        "what_to_say_hi": [
+            "आओ अक्षर गाना गाएं",
+            "हवा में अक्षर लिखो"
+        ],
+        "problem_hi": "वर्णमाला याद नहीं हो रही",
+        "activity_en": "Air writing and alphabet song",
+        "activity_hi": "Air writing and alphabet song",
+        "problem_kn": "ಅಕ್ಷರಮಾಲೆ ನೆನಪಿಲ್ಲ",
+        "what_to_say_kn": [
+            "ಅಕ್ಷರ ಹಾಡನ್ನು ಹಾಡೋಣ",
+            "ಗಾಳಿಯಲ್ಲಿ ಬರೆಯಿರಿ",
+            "ನಿಮ್ಮ ಬೆರಳಿನಿಂದ ತಿದ್ದಿ"
+        ],
+        "activity_kn": "ಗಾಳಿಯಲ್ಲಿ ಬರೆಯುವುದು ಮತ್ತು ಅಕ್ಷರ ಹಾಡು"
+    },
+    {
+        "id": "qf7",
+        "problem": "Multiplication tables not memorized",
+        "problem_hi": "पहाड़े याद नहीं हो रहे",
+        "solution_summary": "Use rhythmic chanting, skip counting, pattern recognition",
+        "grade": 3,
+        "subject": "Math",
+        "topic": "Multiplication",
+        "usage_count": 198,
+        "success_rate": 0.83,
+        "language": "kn",
+        "what_to_say": [
+            "ताली बजाते हुए पहाड़े बोलो",
+            "दो का पहाड़ा गाना गाओ"
+        ],
+        "activity": "Clapping tables chant",
+        "what_to_say_en": [
+            "Clap while saying tables",
+            "Sing the 2 times table",
+            "Practice together"
+        ],
+        "what_to_say_hi": [
+            "ताली बजाते हुए पहाड़े बोलो",
+            "दो का पहाड़ा गाना गाओ"
+        ],
+        "problem_en": "Multiplication issue",
+        "activity_en": "Clapping tables chant",
+        "activity_hi": "Clapping tables chant",
+        "problem_kn": "ಮಗ್ಗಿಗಳು ನೆನಪಿಲ್ಲ",
+        "what_to_say_kn": [
+            "ಮಗ್ಗಿ ಹೇಳುವಾಗ ಚಪ್ಪಾಳೆ ತಟ್ಟಿ",
+            "2 ರ ಮಗ್ಗಿ ಹಾಡಿ",
+            "ಒಟ್ಟಿಗೆ ಅಭ್ಯಾಸ ಮಾಡಿ"
+        ],
+        "activity_kn": "ಚಪ್ಪಾಳೆ ತಟ್ಟುತ್ತಾ ಮಗ್ಗಿ ಹೇಳುವುದು"
+    },
+    {
+        "id": "qf8",
+        "problem": "Students mixing up similar letters",
+        "problem_hi": "मिलते-जुलते अक्षर गड़बड़ हो रहे",
+        "solution_summary": "Use tactile letters, compare side by side, story mnemonics",
+        "grade": 1,
+        "subject": "Hindi",
+        "topic": "Letter Recognition",
+        "usage_count": 134,
+        "success_rate": 0.79,
+        "language": "hi",
+        "what_to_say": [
+            "ब में पेट है, भ में बिंदी है",
+            "गीली मिट्टी में अक्षर बनाओ"
+        ],
+        "activity": "Clay letter making and comparison",
+        "what_to_say_en": [
+            "B has a belly, Bh has a dot",
+            "Make letters in clay",
+            "Feel the shape"
+        ],
+        "what_to_say_hi": [
+            "ब में पेट है, भ में बिंदी है",
+            "गीली मिट्टी में अक्षर बनाओ"
+        ],
+        "problem_en": "Letter Recognition issue",
+        "activity_en": "Clay letter making and comparison",
+        "activity_hi": "Clay letter making and comparison",
+        "problem_kn": "मिलते-जुलते अक्षर गड़बड़ हो रहे",
+        "what_to_say_kn": [
+            "ब में पेट है, भ में बिंदी है",
+            "गीली मिट्टी में अक्षर बनाओ"
+        ],
+        "activity_kn": "Clay letter making and comparison"
+    },
+    {
+        "id": "qf9",
+        "problem": "Word problem solving difficulty",
+        "problem_hi": "सवाल समझने में दिक्कत",
+        "solution_summary": "Act out problems, draw pictures, identify keywords",
+        "grade": 4,
+        "subject": "Math",
+        "topic": "Word Problems",
+        "usage_count": 167,
+        "success_rate": 0.76,
+        "language": "hi",
+        "what_to_say": [
+            "सवाल में क्या हो रहा है? नाटक करके दिखाओ",
+            "तस्वीर बनाओ"
+        ],
+        "activity": "Problem dramatization",
+        "what_to_say_en": [
+            "What is happening in the problem? Act it out",
+            "Draw a picture",
+            "Find keywords"
+        ],
+        "what_to_say_hi": [
+            "सवाल में क्या हो रहा है? नाटक करके दिखाओ",
+            "तस्वीर बनाओ"
+        ],
+        "problem_en": "Word Problems issue",
+        "activity_en": "Problem dramatization",
+        "activity_hi": "Problem dramatization",
+        "problem_kn": "सवाल समझने में दिक्कत",
+        "what_to_say_kn": [
+            "सवाल में क्या हो रहा है? नाटक करके दिखाओ",
+            "तस्वीर बनाओ"
+        ],
+        "activity_kn": "Problem dramatization"
+    },
+    {
+        "id": "qf10",
+        "problem": "Fractions concept not clear",
+        "problem_hi": "भिन्न समझ नहीं आ रहा",
+        "solution_summary": "Use paper folding, food sharing, fraction circles",
+        "grade": 4,
+        "subject": "Math",
+        "topic": "Fractions",
+        "usage_count": 178,
+        "success_rate": 0.82,
+        "language": "hi",
+        "what_to_say": [
+            "रोटी को बराबर भागों में बांटो",
+            "कागज को मोड़कर आधा करो"
+        ],
+        "activity": "Paper folding fractions",
+        "what_to_say_en": [
+            "Divide the roti into equal parts",
+            "Fold paper in half",
+            "Share equally"
+        ],
+        "what_to_say_hi": [
+            "रोटी को बराबर भागों में बांटो",
+            "कागज को मोड़कर आधा करो"
+        ],
+        "problem_en": "Fractions issue",
+        "activity_en": "Paper folding fractions",
+        "activity_hi": "Paper folding fractions",
+        "problem_kn": "भिन्न समझ नहीं आ रहा",
+        "what_to_say_kn": [
+            "रोटी को बराबर भागों में बांटो",
+            "कागज को मोड़कर आधा करो"
+        ],
+        "activity_kn": "Paper folding fractions"
+    },
+    {
+        "id": "qf11",
+        "problem": "Writing speed too slow",
+        "problem_hi": "लिखने की गति धीमी है",
+        "solution_summary": "Use pattern tracing, finger exercises, short timed tasks",
+        "grade": 2,
+        "subject": "Hindi",
+        "topic": "Writing",
+        "usage_count": 123,
+        "success_rate": 0.74,
+        "language": "hi",
+        "what_to_say": [
+            "पहले हवा में लिखो",
+            "उंगली की कसरत करो"
+        ],
+        "activity": "Finger warm-up and timed copying",
+        "what_to_say_en": [
+            "First write in air",
+            "Do finger exercises",
+            "Practice slowly"
+        ],
+        "what_to_say_hi": [
+            "पहले हवा में लिखो",
+            "उंगली की कसरत करो"
+        ],
+        "problem_en": "Writing issue",
+        "activity_en": "Finger warm-up and timed copying",
+        "activity_hi": "Finger warm-up and timed copying",
+        "problem_kn": "लिखने की गति धीमी है",
+        "what_to_say_kn": [
+            "पहले हवा में लिखो",
+            "उंगली की कसरत करो"
+        ],
+        "activity_kn": "Finger warm-up and timed copying"
+    },
+    {
+        "id": "qf12",
+        "problem": "Place value confusion",
+        "problem_hi": "स्थानीय मान समझ नहीं आ रहा",
+        "solution_summary": "Use place value chart, bundling sticks, abacus",
+        "grade": 3,
+        "subject": "Math",
+        "topic": "Place Value",
+        "usage_count": 156,
+        "success_rate": 0.85,
+        "language": "hi",
+        "what_to_say": [
+            "इकाई, दहाई, सैकड़ा - तीन घर हैं",
+            "तीलियों के बंडल बनाओ"
+        ],
+        "activity": "Stick bundling for tens and ones",
+        "what_to_say_en": [
+            "Ones, Tens, Hundreds - three houses",
+            "Make bundles of sticks",
+            "Count carefully"
+        ],
+        "what_to_say_hi": [
+            "इकाई, दहाई, सैकड़ा - तीन घर हैं",
+            "तीलियों के बंडल बनाओ"
+        ],
+        "problem_en": "Place Value issue",
+        "activity_en": "Stick bundling for tens and ones",
+        "activity_hi": "Stick bundling for tens and ones",
+        "problem_kn": "स्थानीय मान समझ नहीं आ रहा",
+        "what_to_say_kn": [
+            "इकाई, दहाई, सैकड़ा - तीन घर हैं",
+            "तीलियों के बंडल बनाओ"
+        ],
+        "activity_kn": "Stick bundling for tens and ones"
+    },
+    {
+        "id": "qf13",
+        "problem": "मात्राएं गलत लग रही हैं",
+        "problem_en": "Vowel marks (matra) errors",
+        "solution_summary": "Use color coding, hand gestures for each matra",
+        "grade": 2,
+        "subject": "Hindi",
+        "topic": "Matra",
+        "usage_count": 189,
+        "success_rate": 0.8,
+        "language": "hi",
+        "what_to_say": [
+            "आ की मात्रा ऐसे आती है",
+            "रंग से मात्रा दिखाओ"
+        ],
+        "activity": "Color-coded matra practice",
+        "what_to_say_en": [
+            "This is how the aa matra comes",
+            "Show matra with colors",
+            "Practice together"
+        ],
+        "what_to_say_hi": [
+            "आ की मात्रा ऐसे आती है",
+            "रंग से मात्रा दिखाओ"
+        ],
+        "problem_hi": "मात्राएं गलत लग रही हैं",
+        "activity_en": "Color-coded matra practice",
+        "activity_hi": "Color-coded matra practice",
+        "problem_kn": "मात्राएं गलत लग रही हैं",
+        "what_to_say_kn": [
+            "आ की मात्रा ऐसे आती है",
+            "रंग से मात्रा दिखाओ"
+        ],
+        "activity_kn": "Color-coded matra practice"
+    },
+    {
+        "id": "qf14",
+        "problem": "Students fear speaking English",
+        "problem_hi": "अंग्रेजी बोलने से डर लगता है",
+        "solution_summary": "Use choral repetition, simple phrases, praise attempts",
+        "grade": 3,
+        "subject": "English",
+        "topic": "Speaking",
+        "usage_count": 145,
+        "success_rate": 0.77,
+        "language": "hi",
+        "what_to_say": [
+            "Good morning कहो",
+            "Very good! Try again"
+        ],
+        "activity": "Group repetition of daily phrases",
+        "what_to_say_en": [
+            "Say Good morning",
+            "Very good! Try again",
+            "Repeat after me"
+        ],
+        "what_to_say_hi": [
+            "Good morning कहो",
+            "Very good! Try again"
+        ],
+        "problem_en": "Speaking issue",
+        "activity_en": "Group repetition of daily phrases",
+        "activity_hi": "Group repetition of daily phrases",
+        "problem_kn": "अंग्रेजी बोलने से डर लगता है",
+        "what_to_say_kn": [
+            "Good morning कहो",
+            "Very good! Try again"
+        ],
+        "activity_kn": "Group repetition of daily phrases"
+    },
+    {
+        "id": "qf15",
+        "problem": "Time telling difficulty",
+        "problem_hi": "समय देखना नहीं आ रहा",
+        "solution_summary": "Use paper plate clocks, daily schedule connection",
+        "grade": 3,
+        "subject": "Math",
+        "topic": "Time",
+        "usage_count": 134,
+        "success_rate": 0.81,
+        "language": "hi",
+        "what_to_say": [
+            "छोटी सुई घंटे बताती है",
+            "अपनी घड़ी बनाओ"
+        ],
+        "activity": "Paper plate clock making",
+        "what_to_say_en": [
+            "The short hand shows hours",
+            "Make your own clock",
+            "What time is it?"
+        ],
+        "what_to_say_hi": [
+            "छोटी सुई घंटे बताती है",
+            "अपनी घड़ी बनाओ"
+        ],
+        "problem_en": "Time issue",
+        "activity_en": "Paper plate clock making",
+        "activity_hi": "Paper plate clock making",
+        "problem_kn": "समय देखना नहीं आ रहा",
+        "what_to_say_kn": [
+            "छोटी सुई घंटे बताती है",
+            "अपनी घड़ी बनाओ"
+        ],
+        "activity_kn": "Paper plate clock making"
+    },
+    {
+        "id": "qf16",
+        "problem": "Students not participating",
+        "problem_hi": "बच्चे भाग नहीं ले रहे",
+        "solution_summary": "Use pair work, think-pair-share, random selection",
+        "grade": 4,
+        "subject": "General",
+        "topic": "Participation",
+        "usage_count": 223,
+        "success_rate": 0.86,
+        "language": "hi",
+        "what_to_say": [
+            "अपने साथी से बात करो",
+            "कौन बताएगा?"
+        ],
+        "activity": "Think-Pair-Share routine",
+        "what_to_say_en": [
+            "Talk to your partner",
+            "Who will tell?",
+            "Think, pair, share"
+        ],
+        "what_to_say_hi": [
+            "अपने साथी से बात करो",
+            "कौन बताएगा?"
+        ],
+        "problem_en": "Participation issue",
+        "activity_en": "Think-Pair-Share routine",
+        "activity_hi": "Think-Pair-Share routine",
+        "problem_kn": "बच्चे भाग नहीं ले रहे",
+        "what_to_say_kn": [
+            "अपने साथी से बात करो",
+            "कौन बताएगा?"
+        ],
+        "activity_kn": "Think-Pair-Share routine"
+    },
+    {
+        "id": "qf17",
+        "problem": "Shapes identification weak",
+        "problem_hi": "आकार पहचानना नहीं आ रहा",
+        "solution_summary": "Use shape hunt, body shapes, everyday objects",
+        "grade": 1,
+        "subject": "Math",
+        "topic": "Shapes",
+        "usage_count": 167,
+        "success_rate": 0.88,
+        "language": "hi",
+        "what_to_say": [
+            "कमरे में गोल चीजें खोजो",
+            "शरीर से तिकोना बनाओ"
+        ],
+        "activity": "Classroom shape hunt",
+        "what_to_say_en": [
+            "Find round things in the room",
+            "Make a triangle with your body",
+            "Look around"
+        ],
+        "what_to_say_hi": [
+            "कमरे में गोल चीजें खोजो",
+            "शरीर से तिकोना बनाओ"
+        ],
+        "problem_en": "Shapes issue",
+        "activity_en": "Classroom shape hunt",
+        "activity_hi": "Classroom shape hunt",
+        "problem_kn": "आकार पहचानना नहीं आ रहा",
+        "what_to_say_kn": [
+            "कमरे में गोल चीजें खोजो",
+            "शरीर से तिकोना बनाओ"
+        ],
+        "activity_kn": "Classroom shape hunt"
+    },
+    {
+        "id": "qf18",
+        "problem": "Poetry memorization difficulty",
+        "problem_hi": "कविता याद नहीं हो रही",
+        "solution_summary": "Use actions, rhythm, line-by-line repetition",
+        "grade": 2,
+        "subject": "Hindi",
+        "topic": "Poetry",
+        "usage_count": 145,
+        "success_rate": 0.84,
+        "language": "hi",
+        "what_to_say": [
+            "हाथ हिलाते हुए बोलो",
+            "मेरे साथ दोहराओ"
+        ],
+        "activity": "Action poetry with movements",
+        "what_to_say_en": [
+            "Say it while moving hands",
+            "Repeat after me",
+            "Let's recite together"
+        ],
+        "what_to_say_hi": [
+            "हाथ हिलाते हुए बोलो",
+            "मेरे साथ दोहराओ"
+        ],
+        "problem_en": "Poetry issue",
+        "activity_en": "Action poetry with movements",
+        "activity_hi": "Action poetry with movements",
+        "problem_kn": "कविता याद नहीं हो रही",
+        "what_to_say_kn": [
+            "हाथ हिलाते हुए बोलो",
+            "मेरे साथ दोहराओ"
+        ],
+        "activity_kn": "Action poetry with movements"
+    },
+    {
+        "id": "qf19",
+        "problem": "Measurement units confusion",
+        "problem_hi": "नाप की इकाइयां गड़बड़ हो रही हैं",
+        "solution_summary": "Use body measurements, classroom measuring",
+        "grade": 4,
+        "subject": "Math",
+        "topic": "Measurement",
+        "usage_count": 112,
+        "success_rate": 0.79,
+        "language": "hi",
+        "what_to_say": [
+            "अपनी बालिश्त से नापो",
+            "कमरे की लंबाई कदमों में नापो"
+        ],
+        "activity": "Body unit measurement activity",
+        "what_to_say_en": [
+            "Measure with your handspan",
+            "Count the room length in steps",
+            "Compare sizes"
+        ],
+        "what_to_say_hi": [
+            "अपनी बालिश्त से नापो",
+            "कमरे की लंबाई कदमों में नापो"
+        ],
+        "problem_en": "Measurement issue",
+        "activity_en": "Body unit measurement activity",
+        "activity_hi": "Body unit measurement activity",
+        "problem_kn": "नाप की इकाइयां गड़बड़ हो रही हैं",
+        "what_to_say_kn": [
+            "अपनी बालिश्त से नापो",
+            "कमरे की लंबाई कदमों में नापो"
+        ],
+        "activity_kn": "Body unit measurement activity"
+    },
+    {
+        "id": "qf20",
+        "problem": "EVS concepts too abstract",
+        "problem_hi": "पर्यावरण के विषय समझ नहीं आ रहे",
+        "solution_summary": "Use local examples, field observation, hands-on",
+        "grade": 3,
+        "subject": "EVS",
+        "topic": "Environment",
+        "usage_count": 134,
+        "success_rate": 0.82,
+        "language": "hi",
+        "what_to_say": [
+            "बाहर चलो और देखो",
+            "अपने गांव में क्या देखते हो?"
+        ],
+        "activity": "Outdoor observation walk",
+        "what_to_say_en": [
+            "Let's go outside and look",
+            "What do you see in your village?",
+            "Observe nature"
+        ],
+        "what_to_say_hi": [
+            "बाहर चलो और देखो",
+            "अपने गांव में क्या देखते हो?"
+        ],
+        "problem_en": "Environment issue",
+        "activity_en": "Outdoor observation walk",
+        "activity_hi": "Outdoor observation walk",
+        "problem_kn": "पर्यावरण के विषय समझ नहीं आ रहे",
+        "what_to_say_kn": [
+            "बाहर चलो और देखो",
+            "अपने गांव में क्या देखते हो?"
+        ],
+        "activity_kn": "Outdoor observation walk"
+    },
+    {
+        "id": "qf21",
+        "problem": "Division concept not clear",
+        "problem_hi": "भाग देना समझ नहीं आ रहा",
+        "solution_summary": "Use equal sharing, grouping activities",
+        "grade": 4,
+        "subject": "Math",
+        "topic": "Division",
+        "usage_count": 156,
+        "success_rate": 0.78,
+        "language": "hi",
+        "what_to_say": [
+            "12 टॉफियां 4 बच्चों में बांटो",
+            "बराबर-बराबर बांटो"
+        ],
+        "activity": "Equal distribution with objects",
+        "what_to_say_en": [
+            "Divide 12 candies among 4 children",
+            "Share equally",
+            "How many each?"
+        ],
+        "what_to_say_hi": [
+            "12 टॉफियां 4 बच्चों में बांटो",
+            "बराबर-बराबर बांटो"
+        ],
+        "problem_en": "Division issue",
+        "activity_en": "Equal distribution with objects",
+        "activity_hi": "Equal distribution with objects",
+        "problem_kn": "भाग देना समझ नहीं आ रहा",
+        "what_to_say_kn": [
+            "12 टॉफियां 4 बच्चों में बांटो",
+            "बराबर-बराबर बांटो"
+        ],
+        "activity_kn": "Equal distribution with objects"
+    },
+    {
+        "id": "qf22",
+        "problem": "Sentence formation weak",
+        "problem_hi": "वाक्य बनाना नहीं आ रहा",
+        "solution_summary": "Use picture prompts, sentence starters, word cards",
+        "grade": 3,
+        "subject": "Hindi",
+        "topic": "Sentence Formation",
+        "usage_count": 145,
+        "success_rate": 0.8,
+        "language": "hi",
+        "what_to_say": [
+            "तस्वीर देखकर बोलो",
+            "मैंने... शब्द से शुरू करो"
+        ],
+        "activity": "Picture-based sentence making",
+        "what_to_say_en": [
+            "Look at picture and speak",
+            "Start with I...",
+            "Make a sentence"
+        ],
+        "what_to_say_hi": [
+            "तस्वीर देखकर बोलो",
+            "मैंने... शब्द से शुरू करो"
+        ],
+        "problem_en": "Sentence Formation issue",
+        "activity_en": "Picture-based sentence making",
+        "activity_hi": "Picture-based sentence making",
+        "problem_kn": "वाक्य बनाना नहीं आ रहा",
+        "what_to_say_kn": [
+            "तस्वीर देखकर बोलो",
+            "मैंने... शब्द से शुरू करो"
+        ],
+        "activity_kn": "Picture-based sentence making"
+    },
+    {
+        "id": "qf23",
+        "problem": "Number recognition issues",
+        "problem_hi": "संख्या पहचानना नहीं आ रहा",
+        "solution_summary": "Use number cards, matching games, sand writing",
+        "grade": 1,
+        "subject": "Math",
+        "topic": "Number Recognition",
+        "usage_count": 198,
+        "success_rate": 0.87,
+        "language": "hi",
+        "what_to_say": [
+            "यह कौन सी संख्या है?",
+            "रेत में लिखो"
+        ],
+        "activity": "Number card matching game",
+        "what_to_say_en": [
+            "Which number is this?",
+            "Write in sand",
+            "Match the cards"
+        ],
+        "what_to_say_hi": [
+            "यह कौन सी संख्या है?",
+            "रेत में लिखो"
+        ],
+        "problem_en": "Number Recognition issue",
+        "activity_en": "Number card matching game",
+        "activity_hi": "Number card matching game",
+        "problem_kn": "संख्या पहचानना नहीं आ रहा",
+        "what_to_say_kn": [
+            "यह कौन सी संख्या है?",
+            "रेत में लिखो"
+        ],
+        "activity_kn": "Number card matching game"
+    },
+    {
+        "id": "qf24",
+        "problem": "Letter sound confusion",
+        "problem_hi": "अक्षर की आवाज गड़बड़ हो रही है",
+        "solution_summary": "Use phonics songs, picture association",
+        "grade": 1,
+        "subject": "Hindi",
+        "topic": "Phonics",
+        "usage_count": 178,
+        "success_rate": 0.83,
+        "language": "hi",
+        "what_to_say": [
+            "क से कबूतर",
+            "आवाज सुनो और बोलो"
+        ],
+        "activity": "Picture-letter sound matching",
+        "what_to_say_en": [
+            "K for Kite",
+            "Listen to the sound and say",
+            "What letter makes this sound?"
+        ],
+        "what_to_say_hi": [
+            "क से कबूतर",
+            "आवाज सुनो और बोलो"
+        ],
+        "problem_en": "Phonics issue",
+        "activity_en": "Picture-letter sound matching",
+        "activity_hi": "Picture-letter sound matching",
+        "problem_kn": "अक्षर की आवाज गड़बड़ हो रही है",
+        "what_to_say_kn": [
+            "क से कबूतर",
+            "आवाज सुनो और बोलो"
+        ],
+        "activity_kn": "Picture-letter sound matching"
+    },
+    {
+        "id": "qf25",
+        "problem": "Data handling difficulty",
+        "problem_hi": "आंकड़ों का काम समझ नहीं आ रहा",
+        "solution_summary": "Use classroom surveys, pictographs, real data",
+        "grade": 4,
+        "subject": "Math",
+        "topic": "Data Handling",
+        "usage_count": 98,
+        "success_rate": 0.76,
+        "language": "hi",
+        "what_to_say": [
+            "कक्षा में सर्वे करो",
+            "कितने बच्चे सेब पसंद करते हैं?"
+        ],
+        "activity": "Classroom favorite fruit survey",
+        "what_to_say_en": [
+            "Do a survey in class",
+            "How many children like apples?",
+            "Count and record"
+        ],
+        "what_to_say_hi": [
+            "कक्षा में सर्वे करो",
+            "कितने बच्चे सेब पसंद करते हैं?"
+        ],
+        "problem_en": "Data Handling issue",
+        "activity_en": "Classroom favorite fruit survey",
+        "activity_hi": "Classroom favorite fruit survey",
+        "problem_kn": "आंकड़ों का काम समझ नहीं आ रहा",
+        "what_to_say_kn": [
+            "कक्षा में सर्वे करो",
+            "कितने बच्चे सेब पसंद करते हैं?"
+        ],
+        "activity_kn": "Classroom favorite fruit survey"
+    },
+    {
+        "id": "qf26",
+        "problem": "Story retelling poor",
+        "problem_hi": "कहानी दोहराना नहीं आ रहा",
+        "solution_summary": "Use story sequence cards, puppet retelling",
+        "grade": 2,
+        "subject": "Hindi",
+        "topic": "Story Retelling",
+        "usage_count": 134,
+        "success_rate": 0.81,
+        "language": "hi",
+        "what_to_say": [
+            "पहले क्या हुआ? फिर क्या हुआ?",
+            "तस्वीरों को क्रम में लगाओ"
+        ],
+        "activity": "Story sequence card ordering",
+        "what_to_say_en": [
+            "What happened first? Then what?",
+            "Arrange pictures in order",
+            "Tell the story"
+        ],
+        "what_to_say_hi": [
+            "पहले क्या हुआ? फिर क्या हुआ?",
+            "तस्वीरों को क्रम में लगाओ"
+        ],
+        "problem_en": "Story Retelling issue",
+        "activity_en": "Story sequence card ordering",
+        "activity_hi": "Story sequence card ordering",
+        "problem_kn": "कहानी दोहराना नहीं आ रहा",
+        "what_to_say_kn": [
+            "पहले क्या हुआ? फिर क्या हुआ?",
+            "तस्वीरों को क्रम में लगाओ"
+        ],
+        "activity_kn": "Story sequence card ordering"
+    },
+    {
+        "id": "qf27",
+        "problem": "Money calculation errors",
+        "problem_hi": "पैसों का हिसाब गलत हो रहा है",
+        "solution_summary": "Use play money, shop role-play",
+        "grade": 3,
+        "subject": "Math",
+        "topic": "Money",
+        "usage_count": 145,
+        "success_rate": 0.82,
+        "language": "hi",
+        "what_to_say": [
+            "दुकान का खेल खेलते हैं",
+            "कितने पैसे वापस मिलेंगे?"
+        ],
+        "activity": "Classroom shop role-play",
+        "what_to_say_en": [
+            "Let's play shop",
+            "How much change will you get?",
+            "Count the money"
+        ],
+        "what_to_say_hi": [
+            "दुकान का खेल खेलते हैं",
+            "कितने पैसे वापस मिलेंगे?"
+        ],
+        "problem_en": "Money issue",
+        "activity_en": "Classroom shop role-play",
+        "activity_hi": "Classroom shop role-play",
+        "problem_kn": "पैसों का हिसाब गलत हो रहा है",
+        "what_to_say_kn": [
+            "दुकान का खेल खेलते हैं",
+            "कितने पैसे वापस मिलेंगे?"
+        ],
+        "activity_kn": "Classroom shop role-play"
+    },
+    {
+        "id": "qf28",
+        "problem": "Handwriting not legible",
+        "problem_hi": "लिखावट सही नहीं है",
+        "solution_summary": "Use four-line practice, slow writing, posture check",
+        "grade": 2,
+        "subject": "Hindi",
+        "topic": "Handwriting",
+        "usage_count": 156,
+        "success_rate": 0.75,
+        "language": "hi",
+        "what_to_say": [
+            "धीरे-धीरे लिखो",
+            "चार लाइन में अक्षर कहां बैठता है?"
+        ],
+        "activity": "Slow, guided letter writing",
+        "what_to_say_en": [
+            "Write slowly",
+            "Where does the letter sit on four lines?",
+            "Practice neatly"
+        ],
+        "what_to_say_hi": [
+            "धीरे-धीरे लिखो",
+            "चार लाइन में अक्षर कहां बैठता है?"
+        ],
+        "problem_en": "Handwriting issue",
+        "activity_en": "Slow, guided letter writing",
+        "activity_hi": "Slow, guided letter writing",
+        "problem_kn": "लिखावट सही नहीं है",
+        "what_to_say_kn": [
+            "धीरे-धीरे लिखो",
+            "चार लाइन में अक्षर कहां बैठता है?"
+        ],
+        "activity_kn": "Slow, guided letter writing"
+    },
+    {
+        "id": "qf29",
+        "problem": "Geometry vocabulary unknown",
+        "problem_hi": "ज्यामिति के शब्द नहीं पता",
+        "solution_summary": "Use word walls, daily vocabulary, real examples",
+        "grade": 5,
+        "subject": "Math",
+        "topic": "Geometry",
+        "usage_count": 89,
+        "success_rate": 0.77,
+        "language": "hi",
+        "what_to_say": [
+            "कोण कहां-कहां दिखता है?",
+            "शब्द दीवार पर देखो"
+        ],
+        "activity": "Geometry word wall building",
+        "what_to_say_en": [
+            "Where do you see angles?",
+            "Look at the word wall",
+            "Find shapes around you"
+        ],
+        "what_to_say_hi": [
+            "कोण कहां-कहां दिखता है?",
+            "शब्द दीवार पर देखो"
+        ],
+        "problem_en": "Geometry issue",
+        "activity_en": "Geometry word wall building",
+        "activity_hi": "Geometry word wall building",
+        "problem_kn": "ज्यामिति के शब्द नहीं पता",
+        "what_to_say_kn": [
+            "कोण कहां-कहां दिखता है?",
+            "शब्द दीवार पर देखो"
+        ],
+        "activity_kn": "Geometry word wall building"
+    },
+    {
+        "id": "qf30",
+        "problem": "Grammar rules confusing",
+        "problem_hi": "व्याकरण के नियम गड़बड़ हो रहे हैं",
+        "solution_summary": "Use examples first, pattern discovery, mnemonics",
+        "grade": 4,
+        "subject": "Hindi",
+        "topic": "Grammar",
+        "usage_count": 123,
+        "success_rate": 0.74,
+        "language": "hi",
+        "what_to_say": [
+            "पहले उदाहरण देखो",
+            "क्या पैटर्न दिख रहा है?"
+        ],
+        "activity": "Grammar pattern discovery game",
+        "what_to_say_en": [
+            "Look at examples first",
+            "What pattern do you see?",
+            "Practice the rule"
+        ],
+        "what_to_say_hi": [
+            "पहले उदाहरण देखो",
+            "क्या पैटर्न दिख रहा है?"
+        ],
+        "problem_en": "Grammar issue",
+        "activity_en": "Grammar pattern discovery game",
+        "activity_hi": "Grammar pattern discovery game",
+        "problem_kn": "व्याकरण के नियम गड़बड़ हो रहे हैं",
+        "what_to_say_kn": [
+            "पहले उदाहरण देखो",
+            "क्या पैटर्न दिख रहा है?"
+        ],
+        "activity_kn": "Grammar pattern discovery game"
+    },
+    {
+        "id": "qf31",
+        "problem": "Skip counting difficulty",
+        "problem_hi": "कूद गिनती नहीं आ रही",
+        "solution_summary": "Use number line jumping, rhythmic counting",
+        "grade": 2,
+        "subject": "Math",
+        "topic": "Skip Counting",
+        "usage_count": 134,
+        "success_rate": 0.84,
+        "language": "hi",
+        "what_to_say": [
+            "2-2 करके गिनो",
+            "कूदो और बोलो"
+        ],
+        "activity": "Number line hopping game",
+        "what_to_say_en": [
+            "Count by 2s",
+            "Jump and say",
+            "Follow the pattern"
+        ],
+        "what_to_say_hi": [
+            "2-2 करके गिनो",
+            "कूदो और बोलो"
+        ],
+        "problem_en": "Skip Counting issue",
+        "activity_en": "Number line hopping game",
+        "activity_hi": "Number line hopping game",
+        "problem_kn": "कूद गिनती नहीं आ रही",
+        "what_to_say_kn": [
+            "2-2 करके गिनो",
+            "कूदो और बोलो"
+        ],
+        "activity_kn": "Number line hopping game"
+    },
+    {
+        "id": "qf32",
+        "problem": "Vocabulary retention poor",
+        "problem_hi": "शब्द याद नहीं रहते",
+        "solution_summary": "Use word games, daily review, context use",
+        "grade": 3,
+        "subject": "English",
+        "topic": "Vocabulary",
+        "usage_count": 145,
+        "success_rate": 0.78,
+        "language": "hi",
+        "what_to_say": [
+            "आज का शब्द क्या है?",
+            "वाक्य में बोलो"
+        ],
+        "activity": "Word of the day routine",
+        "what_to_say_en": [
+            "What is today's word?",
+            "Use it in a sentence",
+            "Remember and practice"
+        ],
+        "what_to_say_hi": [
+            "आज का शब्द क्या है?",
+            "वाक्य में बोलो"
+        ],
+        "problem_en": "Vocabulary issue",
+        "activity_en": "Word of the day routine",
+        "activity_hi": "Word of the day routine",
+        "problem_kn": "शब्द याद नहीं रहते",
+        "what_to_say_kn": [
+            "आज का शब्द क्या है?",
+            "वाक्य में बोलो"
+        ],
+        "activity_kn": "Word of the day routine"
+    },
+    {
+        "id": "qf33",
+        "problem": "Pattern recognition weak",
+        "problem_hi": "पैटर्न समझ नहीं आ रहा",
+        "solution_summary": "Use color patterns, sound patterns, movement patterns",
+        "grade": 1,
+        "subject": "Math",
+        "topic": "Patterns",
+        "usage_count": 156,
+        "success_rate": 0.86,
+        "language": "hi",
+        "what_to_say": [
+            "आगे क्या आएगा?",
+            "ताली-थप्पी का पैटर्न बनाओ"
+        ],
+        "activity": "Clap-tap pattern making",
+        "what_to_say_en": [
+            "What comes next?",
+            "Make a clap-tap pattern",
+            "Find the pattern"
+        ],
+        "what_to_say_hi": [
+            "आगे क्या आएगा?",
+            "ताली-थप्पी का पैटर्न बनाओ"
+        ],
+        "problem_en": "Patterns issue",
+        "activity_en": "Clap-tap pattern making",
+        "activity_hi": "Clap-tap pattern making",
+        "problem_kn": "पैटर्न समझ नहीं आ रहा",
+        "what_to_say_kn": [
+            "आगे क्या आएगा?",
+            "ताली-थप्पी का पैटर्न बनाओ"
+        ],
+        "activity_kn": "Clap-tap pattern making"
+    },
+    {
+        "id": "qf34",
+        "problem": "Compound words confusing",
+        "problem_hi": "संयुक्त शब्द समझ नहीं आ रहे",
+        "solution_summary": "Use word combining games, visual splitting",
+        "grade": 4,
+        "subject": "Hindi",
+        "topic": "Compound Words",
+        "usage_count": 89,
+        "success_rate": 0.75,
+        "language": "hi",
+        "what_to_say": [
+            "दो शब्द मिलकर एक बने",
+            "तोड़कर देखो"
+        ],
+        "activity": "Word combination puzzle",
+        "what_to_say_en": [
+            "Two words become one",
+            "Break it apart",
+            "Combine words"
+        ],
+        "what_to_say_hi": [
+            "दो शब्द मिलकर एक बने",
+            "तोड़कर देखो"
+        ],
+        "problem_en": "Compound Words issue",
+        "activity_en": "Word combination puzzle",
+        "activity_hi": "Word combination puzzle",
+        "problem_kn": "संयुक्त शब्द समझ नहीं आ रहे",
+        "what_to_say_kn": [
+            "दो शब्द मिलकर एक बने",
+            "तोड़कर देखो"
+        ],
+        "activity_kn": "Word combination puzzle"
+    },
+    {
+        "id": "qf35",
+        "problem": "Area and perimeter confusion",
+        "problem_hi": "क्षेत्रफल और परिमाप में गड़बड़",
+        "solution_summary": "Use fencing vs carpet analogy, physical covering",
+        "grade": 5,
+        "subject": "Math",
+        "topic": "Area Perimeter",
+        "usage_count": 112,
+        "success_rate": 0.79,
+        "language": "hi",
+        "what_to_say": [
+            "बाड़ लगाना = परिमाप",
+            "दरी बिछाना = क्षेत्रफल"
+        ],
+        "activity": "Tiling and fencing activity",
+        "what_to_say_en": [
+            "Fencing = Perimeter",
+            "Carpet = Area",
+            "Calculate both"
+        ],
+        "what_to_say_hi": [
+            "बाड़ लगाना = परिमाप",
+            "दरी बिछाना = क्षेत्रफल"
+        ],
+        "problem_en": "Area Perimeter issue",
+        "activity_en": "Tiling and fencing activity",
+        "activity_hi": "Tiling and fencing activity",
+        "problem_kn": "क्षेत्रफल और परिमाप में गड़बड़",
+        "what_to_say_kn": [
+            "बाड़ लगाना = परिमाप",
+            "दरी बिछाना = क्षेत्रफल"
+        ],
+        "activity_kn": "Tiling and fencing activity"
+    },
+    {
+        "id": "qf36",
+        "problem": "Punctuation marks unknown",
+        "problem_hi": "विराम चिह्न नहीं पता",
+        "solution_summary": "Use drama, voice changes, signal cards",
+        "grade": 3,
+        "subject": "Hindi",
+        "topic": "Punctuation",
+        "usage_count": 98,
+        "success_rate": 0.77,
+        "language": "hi",
+        "what_to_say": [
+            "पूर्ण विराम पर रुको",
+            "प्रश्न वाचक में आवाज ऊपर जाती है"
+        ],
+        "activity": "Punctuation drama reading",
+        "what_to_say_en": [
+            "Stop at full stop",
+            "Voice goes up for question",
+            "Read with expression"
+        ],
+        "what_to_say_hi": [
+            "पूर्ण विराम पर रुको",
+            "प्रश्न वाचक में आवाज ऊपर जाती है"
+        ],
+        "problem_en": "Punctuation issue",
+        "activity_en": "Punctuation drama reading",
+        "activity_hi": "Punctuation drama reading",
+        "problem_kn": "विराम चिह्न नहीं पता",
+        "what_to_say_kn": [
+            "पूर्ण विराम पर रुको",
+            "प्रश्न वाचक में आवाज ऊपर जाती है"
+        ],
+        "activity_kn": "Punctuation drama reading"
+    },
+    {
+        "id": "qf37",
+        "problem": "Mental math slow",
+        "problem_hi": "मौखिक गणित धीमा है",
+        "solution_summary": "Use daily mental math warm-up, number bonds",
+        "grade": 4,
+        "subject": "Math",
+        "topic": "Mental Math",
+        "usage_count": 134,
+        "success_rate": 0.8,
+        "language": "hi",
+        "what_to_say": [
+            "जोड़ी बनाओ जो 10 बने",
+            "तुरंत बोलो"
+        ],
+        "activity": "Quick fire number bonds",
+        "what_to_say_en": [
+            "Make pairs that equal 10",
+            "Say quickly",
+            "Practice daily"
+        ],
+        "what_to_say_hi": [
+            "जोड़ी बनाओ जो 10 बने",
+            "तुरंत बोलो"
+        ],
+        "problem_en": "Mental Math issue",
+        "activity_en": "Quick fire number bonds",
+        "activity_hi": "Quick fire number bonds",
+        "problem_kn": "मौखिक गणित धीमा है",
+        "what_to_say_kn": [
+            "जोड़ी बनाओ जो 10 बने",
+            "तुरंत बोलो"
+        ],
+        "activity_kn": "Quick fire number bonds"
+    },
+    {
+        "id": "qf38",
+        "problem": "Paragraph writing difficulty",
+        "problem_hi": "अनुच्छेद लिखना नहीं आ रहा",
+        "solution_summary": "Use graphic organizers, topic sentence practice",
+        "grade": 5,
+        "subject": "Hindi",
+        "topic": "Paragraph Writing",
+        "usage_count": 78,
+        "success_rate": 0.73,
+        "language": "hi",
+        "what_to_say": [
+            "पहले मुख्य बात लिखो",
+            "तीन सहायक बातें जोड़ो"
+        ],
+        "activity": "Hamburger paragraph organizer",
+        "what_to_say_en": [
+            "Write main idea first",
+            "Add three supporting details",
+            "Conclude well"
+        ],
+        "what_to_say_hi": [
+            "पहले मुख्य बात लिखो",
+            "तीन सहायक बातें जोड़ो"
+        ],
+        "problem_en": "Paragraph Writing issue",
+        "activity_en": "Hamburger paragraph organizer",
+        "activity_hi": "Hamburger paragraph organizer",
+        "problem_kn": "अनुच्छेद लिखना नहीं आ रहा",
+        "what_to_say_kn": [
+            "पहले मुख्य बात लिखो",
+            "तीन सहायक बातें जोड़ो"
+        ],
+        "activity_kn": "Hamburger paragraph organizer"
+    },
+    {
+        "id": "qf39",
+        "problem": "Volume concept unclear",
+        "problem_hi": "आयतन समझ नहीं आ रहा",
+        "solution_summary": "Use water displacement, cube building",
+        "grade": 5,
+        "subject": "Math",
+        "topic": "Volume",
+        "usage_count": 67,
+        "success_rate": 0.74,
+        "language": "hi",
+        "what_to_say": [
+            "कितना पानी भर सकता है?",
+            "घनों से बनाओ और गिनो"
+        ],
+        "activity": "Cube building for volume",
+        "what_to_say_en": [
+            "How much water can it hold?",
+            "Build with cubes and count",
+            "Measure capacity"
+        ],
+        "what_to_say_hi": [
+            "कितना पानी भर सकता है?",
+            "घनों से बनाओ और गिनो"
+        ],
+        "problem_en": "Volume issue",
+        "activity_en": "Cube building for volume",
+        "activity_hi": "Cube building for volume",
+        "problem_kn": "आयतन समझ नहीं आ रहा",
+        "what_to_say_kn": [
+            "कितना पानी भर सकता है?",
+            "घनों से बनाओ और गिनो"
+        ],
+        "activity_kn": "Cube building for volume"
+    },
+    {
+        "id": "qf40",
+        "problem": "नैतिक मूल्य सिखाना कठिन",
+        "problem_en": "Difficult to teach moral values",
+        "solution_summary": "Use stories, role-play, real-life connections",
+        "grade": 3,
+        "subject": "EVS",
+        "topic": "Values",
+        "usage_count": 145,
+        "success_rate": 0.85,
+        "language": "hi",
+        "what_to_say": [
+            "कहानी सुनो और बताओ क्या सीखा",
+            "तुम क्या करते?"
+        ],
+        "activity": "Story-based value discussion",
+        "what_to_say_en": [
+            "Listen to the story and tell what you learned",
+            "What would you do?",
+            "Discuss together"
+        ],
+        "what_to_say_hi": [
+            "कहानी सुनो और बताओ क्या सीखा",
+            "तुम क्या करते?"
+        ],
+        "problem_hi": "नैतिक मूल्य सिखाना कठिन",
+        "activity_en": "Story-based value discussion",
+        "activity_hi": "Story-based value discussion",
+        "problem_kn": "नैतिक मूल्य सिखाना कठिन",
+        "what_to_say_kn": [
+            "कहानी सुनो और बताओ क्या सीखा",
+            "तुम क्या करते?"
+        ],
+        "activity_kn": "Story-based value discussion"
+    },
+    {
+        "id": "qf41",
+        "problem": "Decimals confusing",
+        "problem_hi": "दशमलव समझ नहीं आ रहा",
+        "solution_summary": "Use money connection, place value extension",
+        "grade": 5,
+        "subject": "Math",
+        "topic": "Decimals",
+        "usage_count": 98,
+        "success_rate": 0.76,
+        "language": "hi",
+        "what_to_say": [
+            "रुपये और पैसे सोचो",
+            "बिंदु के बाद पैसे हैं"
+        ],
+        "activity": "Money-based decimal practice",
+        "what_to_say_en": [
+            "Think of rupees and paise",
+            "After the dot are paise",
+            "Practice with money"
+        ],
+        "what_to_say_hi": [
+            "रुपये और पैसे सोचो",
+            "बिंदु के बाद पैसे हैं"
+        ],
+        "problem_en": "Decimals issue",
+        "activity_en": "Money-based decimal practice",
+        "activity_hi": "Money-based decimal practice",
+        "problem_kn": "दशमलव समझ नहीं आ रहा",
+        "what_to_say_kn": [
+            "रुपये और पैसे सोचो",
+            "बिंदु के बाद पैसे हैं"
+        ],
+        "activity_kn": "Money-based decimal practice"
+    },
+    {
+        "id": "qf42",
+        "problem": "Letter formation incorrect",
+        "problem_hi": "अक्षर बनाने का तरीका गलत है",
+        "solution_summary": "Use starting point practice, numbered strokes",
+        "grade": 1,
+        "subject": "Hindi",
+        "topic": "Letter Formation",
+        "usage_count": 189,
+        "success_rate": 0.82,
+        "language": "hi",
+        "what_to_say": [
+            "बिंदु से शुरू करो",
+            "1-2-3 क्रम में लिखो"
+        ],
+        "activity": "Dot-to-letter tracing",
+        "what_to_say_en": [
+            "Start from the dot",
+            "Write in 1-2-3 order",
+            "Trace carefully"
+        ],
+        "what_to_say_hi": [
+            "बिंदु से शुरू करो",
+            "1-2-3 क्रम में लिखो"
+        ],
+        "problem_en": "Letter Formation issue",
+        "activity_en": "Dot-to-letter tracing",
+        "activity_hi": "Dot-to-letter tracing",
+        "problem_kn": "अक्षर बनाने का तरीका गलत है",
+        "what_to_say_kn": [
+            "बिंदु से शुरू करो",
+            "1-2-3 क्रम में लिखो"
+        ],
+        "activity_kn": "Dot-to-letter tracing"
+    },
+    {
+        "id": "qf43",
+        "problem": "Comparing numbers difficult",
+        "problem_hi": "संख्याओं की तुलना नहीं हो रही",
+        "solution_summary": "Use greater than crocodile, place value comparison",
+        "grade": 2,
+        "subject": "Math",
+        "topic": "Comparing Numbers",
+        "usage_count": 145,
+        "success_rate": 0.84,
+        "language": "hi",
+        "what_to_say": [
+            "मगरमच्छ बड़े को खाता है",
+            "पहले दहाई देखो"
+        ],
+        "activity": "Crocodile comparison game",
+        "what_to_say_en": [
+            "Crocodile eats the bigger one",
+            "Look at tens first",
+            "Compare digits"
+        ],
+        "what_to_say_hi": [
+            "मगरमच्छ बड़े को खाता है",
+            "पहले दहाई देखो"
+        ],
+        "problem_en": "Comparing Numbers issue",
+        "activity_en": "Crocodile comparison game",
+        "activity_hi": "Crocodile comparison game",
+        "problem_kn": "संख्याओं की तुलना नहीं हो रही",
+        "what_to_say_kn": [
+            "मगरमच्छ बड़े को खाता है",
+            "पहले दहाई देखो"
+        ],
+        "activity_kn": "Crocodile comparison game"
+    },
+    {
+        "id": "qf44",
+        "problem": "Listening comprehension weak",
+        "problem_hi": "सुनकर समझना कमजोर है",
+        "solution_summary": "Use follow-up questions, picture drawing from audio",
+        "grade": 3,
+        "subject": "Hindi",
+        "topic": "Listening",
+        "usage_count": 112,
+        "success_rate": 0.79,
+        "language": "hi",
+        "what_to_say": [
+            "ध्यान से सुनो",
+            "सुनकर तस्वीर बनाओ"
+        ],
+        "activity": "Listen and draw activity",
+        "what_to_say_en": [
+            "Listen carefully",
+            "Draw what you hear",
+            "Pay attention"
+        ],
+        "what_to_say_hi": [
+            "ध्यान से सुनो",
+            "सुनकर तस्वीर बनाओ"
+        ],
+        "problem_en": "Listening issue",
+        "activity_en": "Listen and draw activity",
+        "activity_hi": "Listen and draw activity",
+        "problem_kn": "सुनकर समझना कमजोर है",
+        "what_to_say_kn": [
+            "ध्यान से सुनो",
+            "सुनकर तस्वीर बनाओ"
+        ],
+        "activity_kn": "Listen and draw activity"
+    },
+    {
+        "id": "qf45",
+        "problem": "Symmetry concept unclear",
+        "problem_hi": "सममिति समझ नहीं आ रही",
+        "solution_summary": "Use paper folding, mirror activities, body symmetry",
+        "grade": 4,
+        "subject": "Math",
+        "topic": "Symmetry",
+        "usage_count": 89,
+        "success_rate": 0.81,
+        "language": "hi",
+        "what_to_say": [
+            "आधा मोड़ो, दोनों तरफ एक जैसा",
+            "शरीर का बीच का खींचो"
+        ],
+        "activity": "Paper folding symmetry",
+        "what_to_say_en": [
+            "Fold in half, both sides same",
+            "Draw the middle line of body",
+            "Mirror image"
+        ],
+        "what_to_say_hi": [
+            "आधा मोड़ो, दोनों तरफ एक जैसा",
+            "शरीर का बीच का खींचो"
+        ],
+        "problem_en": "Symmetry issue",
+        "activity_en": "Paper folding symmetry",
+        "activity_hi": "Paper folding symmetry",
+        "problem_kn": "सममिति समझ नहीं आ रही",
+        "what_to_say_kn": [
+            "आधा मोड़ो, दोनों तरफ एक जैसा",
+            "शरीर का बीच का खींचो"
+        ],
+        "activity_kn": "Paper folding symmetry"
+    },
+    {
+        "id": "qf46",
+        "problem": "Dictionary skills lacking",
+        "problem_hi": "शब्दकोश का उपयोग नहीं आता",
+        "solution_summary": "Use alphabetical sorting, guide words, practice",
+        "grade": 4,
+        "subject": "Hindi",
+        "topic": "Dictionary",
+        "usage_count": 67,
+        "success_rate": 0.72,
+        "language": "hi",
+        "what_to_say": [
+            "वर्णमाला क्रम में लगाओ",
+            "गाइड शब्द देखो"
+        ],
+        "activity": "Speed dictionary race",
+        "what_to_say_en": [
+            "Arrange in alphabet order",
+            "Look at guide words",
+            "Find quickly"
+        ],
+        "what_to_say_hi": [
+            "वर्णमाला क्रम में लगाओ",
+            "गाइड शब्द देखो"
+        ],
+        "problem_en": "Dictionary issue",
+        "activity_en": "Speed dictionary race",
+        "activity_hi": "Speed dictionary race",
+        "problem_kn": "शब्दकोश का उपयोग नहीं आता",
+        "what_to_say_kn": [
+            "वर्णमाला क्रम में लगाओ",
+            "गाइड शब्द देखो"
+        ],
+        "activity_kn": "Speed dictionary race"
+    },
+    {
+        "id": "qf47",
+        "problem": "Odd-even confusion",
+        "problem_hi": "सम-विषम में गड़बड़ी",
+        "solution_summary": "Use pair making, rhyme, last digit check",
+        "grade": 2,
+        "subject": "Math",
+        "topic": "Odd Even",
+        "usage_count": 156,
+        "success_rate": 0.87,
+        "language": "hi",
+        "what_to_say": [
+            "जोड़ी बन गई तो सम",
+            "0,2,4,6,8 वाले सम हैं"
+        ],
+        "activity": "Pair-making classification",
+        "what_to_say_en": [
+            "If pairs form, it's even",
+            "0,2,4,6,8 endings are even",
+            "Check last digit"
+        ],
+        "what_to_say_hi": [
+            "जोड़ी बन गई तो सम",
+            "0,2,4,6,8 वाले सम हैं"
+        ],
+        "problem_en": "Odd Even issue",
+        "activity_en": "Pair-making classification",
+        "activity_hi": "Pair-making classification",
+        "problem_kn": "सम-विषम में गड़बड़ी",
+        "what_to_say_kn": [
+            "जोड़ी बन गई तो सम",
+            "0,2,4,6,8 वाले सम हैं"
+        ],
+        "activity_kn": "Pair-making classification"
+    },
+    {
+        "id": "qf48",
+        "problem": "Creative writing blocked",
+        "problem_hi": "कल्पनाशील लेखन नहीं हो रहा",
+        "solution_summary": "Use story starters, picture prompts, what-if questions",
+        "grade": 5,
+        "subject": "Hindi",
+        "topic": "Creative Writing",
+        "usage_count": 78,
+        "success_rate": 0.74,
+        "language": "hi",
+        "what_to_say": [
+            "अगर तुम चिड़िया होते तो...",
+            "तस्वीर की कहानी लिखो"
+        ],
+        "activity": "Picture prompt story writing",
+        "what_to_say_en": [
+            "If you were a bird...",
+            "Write a story about the picture",
+            "Use imagination"
+        ],
+        "what_to_say_hi": [
+            "अगर तुम चिड़िया होते तो...",
+            "तस्वीर की कहानी लिखो"
+        ],
+        "problem_en": "Creative Writing issue",
+        "activity_en": "Picture prompt story writing",
+        "activity_hi": "Picture prompt story writing",
+        "problem_kn": "कल्पनाशील लेखन नहीं हो रहा",
+        "what_to_say_kn": [
+            "अगर तुम चिड़िया होते तो...",
+            "तस्वीर की कहानी लिखो"
+        ],
+        "activity_kn": "Picture prompt story writing"
+    },
+    {
+        "id": "qf49",
+        "problem": "Calendar reading difficult",
+        "problem_hi": "कैलेंडर पढ़ना नहीं आ रहा",
+        "solution_summary": "Use daily calendar routine, birthday finding",
+        "grade": 2,
+        "subject": "Math",
+        "topic": "Calendar",
+        "usage_count": 112,
+        "success_rate": 0.83,
+        "language": "hi",
+        "what_to_say": [
+            "आज कौन सा दिन है?",
+            "अपना जन्मदिन खोजो"
+        ],
+        "activity": "Daily calendar routine",
+        "what_to_say_en": [
+            "What day is today?",
+            "Find your birthday",
+            "Count the days"
+        ],
+        "what_to_say_hi": [
+            "आज कौन सा दिन है?",
+            "अपना जन्मदिन खोजो"
+        ],
+        "problem_en": "Calendar issue",
+        "activity_en": "Daily calendar routine",
+        "activity_hi": "Daily calendar routine",
+        "problem_kn": "कैलेंडर पढ़ना नहीं आ रहा",
+        "what_to_say_kn": [
+            "आज कौन सा दिन है?",
+            "अपना जन्मदिन खोजो"
+        ],
+        "activity_kn": "Daily calendar routine"
+    },
+    {
+        "id": "qf50",
+        "problem": "Class too noisy",
+        "problem_hi": "कक्षा में बहुत शोर है",
+        "solution_summary": "Use quiet signals, voice levels chart, positive reinforcement",
+        "grade": 3,
+        "subject": "General",
+        "topic": "Classroom Management",
+        "usage_count": 267,
+        "success_rate": 0.88,
+        "language": "hi",
+        "what_to_say": [
+            "जब मैं ताली बजाऊं, सब चुप",
+            "आवाज का लेवल 1 चाहिए"
+        ],
+        "activity": "Clap pattern attention signal",
+        "what_to_say_en": [
+            "When I clap, everyone quiet",
+            "Voice level 1 please",
+            "Follow the signal"
+        ],
+        "what_to_say_hi": [
+            "जब मैं ताली बजाऊं, सब चुप",
+            "आवाज का लेवल 1 चाहिए"
+        ],
+        "problem_en": "Classroom Management issue",
+        "activity_en": "Clap pattern attention signal",
+        "activity_hi": "Clap pattern attention signal",
+        "problem_kn": "कक्षा में बहुत शोर है",
+        "what_to_say_kn": [
+            "जब मैं ताली बजाऊं, सब चुप",
+            "आवाज का लेवल 1 चाहिए"
+        ],
+        "activity_kn": "Clap pattern attention signal"
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "id": "ncert1",
+        "grade": 1,
+        "subject": "Math",
+        "book": "Math Magic",
+        "chapter": "Numbers from 1 to 9",
+        "chapter_number": 1,
+        "topic": "Counting",
+        "page_range": "1-20",
+        "link": "https://ncert.nic.in/textbook.php?aemh1=1-13"
+    },
+    {
+        "id": "ncert2",
+        "grade": 1,
+        "subject": "Math",
+        "book": "Math Magic",
+        "chapter": "Addition",
+        "chapter_number": 3,
+        "topic": "Addition",
+        "page_range": "31-45",
+        "link": "https://ncert.nic.in/textbook.php?aemh1=3-13"
+    },
+    {
+        "id": "ncert3",
+        "grade": 2,
+        "subject": "Math",
+        "book": "Math Magic",
+        "chapter": "Counting in Groups",
+        "chapter_number": 2,
+        "topic": "Place Value",
+        "page_range": "15-30",
+        "link": "https://ncert.nic.in/textbook.php?bemh1=2-15"
+    },
+    {
+        "id": "ncert4",
+        "grade": 3,
+        "subject": "Math",
+        "book": "Math Magic",
+        "chapter": "Fun with Numbers",
+        "chapter_number": 3,
+        "topic": "Multiplication",
+        "page_range": "35-52",
+        "link": "https://ncert.nic.in/textbook.php?cemh1=3-14"
+    },
+    {
+        "id": "ncert5",
+        "grade": 3,
+        "subject": "Math",
+        "book": "Math Magic",
+        "chapter": "Give and Take",
+        "chapter_number": 5,
+        "topic": "Addition-Subtraction",
+        "page_range": "68-85",
+        "link": "https://ncert.nic.in/textbook.php?cemh1=5-14"
+    },
+    {
+        "id": "ncert6",
+        "grade": 4,
+        "subject": "Math",
+        "book": "Math Magic",
+        "chapter": "A Trip to Bhopal",
+        "chapter_number": 1,
+        "topic": "Large Numbers",
+        "page_range": "1-18",
+        "link": "https://ncert.nic.in/textbook.php?demh1=1-14"
+    },
+    {
+        "id": "ncert7",
+        "grade": 4,
+        "subject": "Math",
+        "book": "Math Magic",
+        "chapter": "Tick Tick Tick",
+        "chapter_number": 4,
+        "topic": "Time",
+        "page_range": "48-62",
+        "link": "https://ncert.nic.in/textbook.php?demh1=4-14"
+    },
+    {
+        "id": "ncert8",
+        "grade": 5,
+        "subject": "Math",
+        "book": "Math Magic",
+        "chapter": "Parts and Wholes",
+        "chapter_number": 4,
+        "topic": "Fractions",
+        "page_range": "55-72",
+        "link": "https://ncert.nic.in/textbook.php?eemh1=4-14"
+    },
+    {
+        "id": "ncert9",
+        "grade": 1,
+        "subject": "Hindi",
+        "book": "Rimjhim",
+        "chapter": "झूला",
+        "chapter_number": 1,
+        "topic": "Poetry",
+        "page_range": "1-8",
+        "link": "https://ncert.nic.in/textbook.php?ahhi1=1-23"
+    },
+    {
+        "id": "ncert10",
+        "grade": 2,
+        "subject": "Hindi",
+        "book": "Rimjhim",
+        "chapter": "आम की कहानी",
+        "chapter_number": 5,
+        "topic": "Story Reading",
+        "page_range": "28-35",
+        "link": "https://ncert.nic.in/textbook.php?bhhi1=5-15"
+    },
+    {
+        "id": "ncert11",
+        "grade": 3,
+        "subject": "Hindi",
+        "book": "Rimjhim",
+        "chapter": "कक्कू",
+        "chapter_number": 2,
+        "topic": "Reading Comprehension",
+        "page_range": "8-14",
+        "link": "https://ncert.nic.in/textbook.php?chhi1=2-14"
+    },
+    {
+        "id": "ncert12",
+        "grade": 3,
+        "subject": "EVS",
+        "book": "Looking Around",
+        "chapter": "Poonam's Day Out",
+        "chapter_number": 1,
+        "topic": "Animals",
+        "page_range": "1-10",
+        "link": "https://ncert.nic.in/textbook.php?ceev1=1-24"
+    },
+    {
+        "id": "ncert13",
+        "grade": 4,
+        "subject": "EVS",
+        "book": "Looking Around",
+        "chapter": "Eating Together",
+        "chapter_number": 20,
+        "topic": "Food and Health",
+        "page_range": "158-165",
+        "link": "https://ncert.nic.in/textbook.php?deev1=20-27"
+    },
+    {
+        "id": "ncert14",
+        "grade": 5,
+        "subject": "EVS",
+        "book": "Looking Around",
+        "chapter": "Seeds and Seeds",
+        "chapter_number": 5,
+        "topic": "Plants",
+        "page_range": "40-50",
+        "link": "https://ncert.nic.in/textbook.php?eeev1=5-22"
+    },
+    {
+        "id": "ncert15",
+        "grade": 3,
+        "subject": "English",
+        "book": "Marigold",
+        "chapter": "Good Morning",
+        "chapter_number": 1,
+        "topic": "Greetings",
+        "page_range": "1-8",
+        "link": "https://ncert.nic.in/textbook.php?ceen1=1-10"
+    }
+]
