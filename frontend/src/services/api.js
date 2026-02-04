@@ -1,5 +1,10 @@
 // API service for SAHAYAK AI
-const API_BASE = '/api';
+// Use environment variable for production, fallback to /api for local development with Vite proxy
+const API_BASE = import.meta.env.VITE_API_URL 
+    ? `${import.meta.env.VITE_API_URL}/api` 
+    : '/api';
+
+console.log('🔗 API Base URL:', API_BASE);
 
 // Auth token management
 let authToken = localStorage.getItem('sahayak_token');
