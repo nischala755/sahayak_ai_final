@@ -135,7 +135,8 @@ pip install -r requirements.txt
 
 # Create .env file
 echo "GEMINI_API_KEY=your_key_here" > .env
-echo "JWT_SECRET=sahayak_secret_2024" >> .env
+echo "MISTRAL_API_KEY=your_mistral_key" >> .env
+echo "JWT_SECRET=sahayak_secret_2026" >> .env
 
 # Start server
 uvicorn app.main:app --reload --port 8000
@@ -217,7 +218,7 @@ npm run dev
 | **State** | React Context, Custom Hooks | Offline-first state |
 | **Charts** | Recharts | Beautiful analytics |
 | **Backend** | FastAPI, Pydantic | High-performance API |
-| **AI** | Google Gemini 2.5 Flash | Playbook generation |
+| **AI** | Google Gemini 2.5 Flash + Mistral | Playbook generation |
 | **Cache** | Redis + IndexedDB | Multi-tier caching |
 | **Speech** | Web Speech API | Voice I/O |
 | **PWA** | Service Worker, Manifest | Offline capability |
@@ -286,7 +287,7 @@ sahayak_ai_final/
 
 ## 👥 Team
 
-Built with ❤️ for **Shikshalokam Hackathon 2024 Finals**
+Built with ❤️ for **Shikshalokam Hackathon 2026 Finals**
 
 ---
 
