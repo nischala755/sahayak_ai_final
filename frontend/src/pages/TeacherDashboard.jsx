@@ -18,6 +18,7 @@ import { ReadinessCard } from '../components/teacher/ReadinessSignal';
 import QuickFixes from '../components/teacher/QuickFixes';
 import ActionPlan from '../components/teacher/ActionPlan';
 import TextbookScanner from '../components/teacher/TextbookScanner';
+import { SpeculativeCacheWidget } from '../components/teacher/SpeculativeCache';
 
 export function TeacherDashboard({ user, onLogout }) {
     const [dashboardData, setDashboardData] = useState(null);
@@ -179,6 +180,12 @@ export function TeacherDashboard({ user, onLogout }) {
                     </Card>
                 </div>
 
+                {/* Speculative Knowledge Distillation - Pre-loaded Content */}
+                <SpeculativeCacheWidget 
+                    grade={user?.grade || 6} 
+                    onTopicSelect={(topic) => handleSosSubmit(`Help with ${topic.topic} for class ${topic.grade}`)}
+                />
+
                 {/* Tabs */}
                 <div className="flex gap-2 border-b border-slate-200 overflow-x-auto scrollbar-hide">
                     {[
@@ -208,7 +215,6 @@ export function TeacherDashboard({ user, onLogout }) {
                                 fromCache={sosResponse.from_cache}
                                 onSuccess={handleFeedback}
                                 onClose={() => setSosResponse(null)}
-                                language={language}
                             />
                         ) : processingsos ? (
                             <div className="py-12 text-center">

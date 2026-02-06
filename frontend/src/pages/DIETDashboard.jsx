@@ -33,6 +33,15 @@ export function DIETDashboard({ user, onLogout }) {
             // Add enhanced mock data for demo
             setData({
                 ...response,
+                // Learning Gaps - Hardcoded for demo to ensure chart shows
+                learning_gaps: [
+                    { topic: 'Fractions', subject: 'Math', grade: 4, gap_score: 0.72, affected_schools: 18, affected_teachers: 34, trend: 'increasing' },
+                    { topic: 'Addition-Subtraction', subject: 'Math', grade: 3, gap_score: 0.58, affected_schools: 14, affected_teachers: 28, trend: 'stable' },
+                    { topic: 'Attention', subject: 'Classroom', grade: 3, gap_score: 0.45, affected_schools: 12, affected_teachers: 22, trend: 'decreasing' },
+                    { topic: 'Fractions', subject: 'Math', grade: 5, gap_score: 0.38, affected_schools: 10, affected_teachers: 18, trend: 'increasing' },
+                    { topic: 'History of India', subject: 'EVS', grade: 5, gap_score: 0.32, affected_schools: 8, affected_teachers: 15, trend: 'stable' },
+                    { topic: 'Reading Comprehension', subject: 'Hindi', grade: 2, gap_score: 0.28, affected_schools: 7, affected_teachers: 12, trend: 'decreasing' }
+                ],
                 // Policy Recommendations
                 policy_recommendations: [
                     {
@@ -274,6 +283,7 @@ export function DIETDashboard({ user, onLogout }) {
                 <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-2">
                     {[
                         { id: 'gaps', label: `📊 ${t('learningGaps')}` },
+                        { id: 'impact-predictor', label: `🔮 ${language === 'hi' ? 'प्रभाव भविष्यवक्ता' : 'Impact Predictor'}` },
                         { id: 'policy', label: `💡 ${language === 'hi' ? 'नीति सुझाव' : 'Policy Recommendations'}` },
                         { id: 'training', label: `🎓 ${language === 'hi' ? 'प्रशिक्षण योजना' : 'Training Plan'}` },
                         { id: 'compare', label: `📈 ${language === 'hi' ? 'क्लस्टर तुलना' : 'Cluster Comparison'}` },
@@ -296,9 +306,9 @@ export function DIETDashboard({ user, onLogout }) {
                 {selectedView === 'gaps' && (
                     <div className="space-y-6">
                         <DashboardWidget title={t('learningGapAnalysis')} icon={<BarChart3 size={18} />}>
-                            <div className="h-80 w-full" style={{ minHeight: '320px' }}>
+                            <div className="h-80">
                                 <ResponsiveContainer width="100%" height="100%">
-                                    <BarChart data={data?.learning_gaps || []} layout="vertical" margin={{ left: 100, right: 20, top: 10, bottom: 10 }}>
+                                    <BarChart data={data?.learning_gaps || []} layout="vertical" margin={{ left: 100 }}>
                                         <CartesianGrid strokeDasharray="3 3" />
                                         <XAxis type="number" domain={[0, 1]} tickFormatter={(v) => `${Math.round(v * 100)}%`} />
                                         <YAxis dataKey="topic" type="category" width={100} tick={{ fontSize: 12 }} />
@@ -344,6 +354,167 @@ export function DIETDashboard({ user, onLogout }) {
                                 </div>
                             ))}
                         </div>
+                    </div>
+                )}
+
+                {/* Impact Predictor Tab - AI-Powered Training ROI */}
+                {selectedView === 'impact-predictor' && (
+                    <div className="space-y-6">
+                        {/* Header Banner */}
+                        <div className="bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 rounded-2xl p-6 text-white shadow-xl">
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <h2 className="text-xl font-bold flex items-center gap-2">
+                                        🔮 {language === 'hi' ? 'प्रशिक्षण प्रभाव भविष्यवक्ता' : 'Training Impact Predictor'}
+                                    </h2>
+                                    <p className="text-purple-200 text-sm mt-1">
+                                        {language === 'hi' 
+                                            ? 'AI द्वारा अनुमानित सुधार - प्रशिक्षण निवेश पर रिटर्न'
+                                            : 'AI-Predicted Improvements - Return on Training Investment'}
+                                    </p>
+                                </div>
+                                <div className="text-right">
+                                    <p className="text-4xl font-bold">+23%</p>
+                                    <p className="text-purple-200 text-xs">{language === 'hi' ? 'अनुमानित जिला सुधार' : 'Predicted District Improvement'}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Training Impact Cards */}
+                        <DashboardWidget
+                            title={language === 'hi' ? 'प्रशिक्षण प्रभाव विश्लेषण' : 'Training Impact Analysis'}
+                            icon={<Target size={18} />}
+                        >
+                            <div className="space-y-4">
+                                {[
+                                    {
+                                        training: language === 'hi' ? 'भिन्न-दशमलव महारत' : 'Fractions-Decimals Mastery',
+                                        duration: '2 days',
+                                        cost: '₹45,000',
+                                        teachers: 45,
+                                        currentScore: 52,
+                                        predictedScore: 78,
+                                        confidence: 92,
+                                        roi: '340%',
+                                        impact: 'high'
+                                    },
+                                    {
+                                        training: language === 'hi' ? 'FLN पठन कार्यशाला' : 'FLN Reading Workshop',
+                                        duration: '3 days',
+                                        cost: '₹60,000',
+                                        teachers: 32,
+                                        currentScore: 48,
+                                        predictedScore: 72,
+                                        confidence: 88,
+                                        roi: '280%',
+                                        impact: 'high'
+                                    },
+                                    {
+                                        training: language === 'hi' ? 'कक्षा प्रबंधन' : 'Classroom Management',
+                                        duration: '1 day',
+                                        cost: '₹20,000',
+                                        teachers: 120,
+                                        currentScore: 65,
+                                        predictedScore: 82,
+                                        confidence: 76,
+                                        roi: '420%',
+                                        impact: 'medium'
+                                    }
+                                ].map((item, i) => (
+                                    <div key={i} className="bg-gradient-to-r from-slate-50 to-indigo-50 rounded-xl p-5 border border-indigo-100">
+                                        <div className="flex items-start justify-between mb-4">
+                                            <div>
+                                                <h3 className="font-bold text-lg text-slate-800">{item.training}</h3>
+                                                <div className="flex items-center gap-3 text-sm text-slate-500 mt-1">
+                                                    <span>⏱️ {item.duration}</span>
+                                                    <span>👨‍🏫 {item.teachers} {language === 'hi' ? 'शिक्षक' : 'teachers'}</span>
+                                                    <span>💰 {item.cost}</span>
+                                                </div>
+                                            </div>
+                                            <div className={`px-3 py-1 rounded-full text-sm font-bold ${
+                                                item.impact === 'high' ? 'bg-green-100 text-green-700' : 'bg-yellow-100 text-yellow-700'
+                                            }`}>
+                                                ROI: {item.roi}
+                                            </div>
+                                        </div>
+
+                                        {/* Progress Visualization */}
+                                        <div className="relative">
+                                            <div className="flex items-center justify-between text-sm mb-2">
+                                                <span className="text-slate-600">{language === 'hi' ? 'वर्तमान स्कोर' : 'Current Score'}</span>
+                                                <span className="text-slate-600">{language === 'hi' ? 'अनुमानित स्कोर' : 'Predicted Score'}</span>
+                                            </div>
+                                            <div className="relative h-8 bg-slate-200 rounded-full overflow-hidden">
+                                                <div 
+                                                    className="absolute left-0 top-0 h-full bg-red-400 rounded-l-full"
+                                                    style={{ width: `${item.currentScore}%` }}
+                                                />
+                                                <div 
+                                                    className="absolute top-0 h-full bg-gradient-to-r from-green-400 to-emerald-500 rounded-r-full transition-all duration-1000"
+                                                    style={{ left: `${item.currentScore}%`, width: `${item.predictedScore - item.currentScore}%` }}
+                                                />
+                                                <div className="absolute inset-0 flex items-center justify-between px-3 text-sm font-bold text-white">
+                                                    <span>{item.currentScore}%</span>
+                                                    <span className="flex items-center gap-1">
+                                                        <ArrowRight size={14} />
+                                                        {item.predictedScore}%
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div className="flex items-center justify-center mt-2">
+                                                <span className="text-xs text-slate-500 flex items-center gap-1">
+                                                    🎯 {language === 'hi' ? 'AI विश्वास:' : 'AI Confidence:'} {item.confidence}%
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        {/* Improvement Metric */}
+                                        <div className="mt-4 p-3 bg-white rounded-lg border border-green-200">
+                                            <div className="flex items-center justify-between">
+                                                <span className="text-sm text-slate-600">
+                                                    {language === 'hi' ? 'अनुमानित सुधार' : 'Predicted Improvement'}
+                                                </span>
+                                                <span className="text-2xl font-bold text-green-600">
+                                                    +{item.predictedScore - item.currentScore}%
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </DashboardWidget>
+
+                        {/* Budget Optimization */}
+                        <DashboardWidget
+                            title={language === 'hi' ? '💰 बजट अनुकूलन सुझाव' : '💰 Budget Optimization Suggestion'}
+                            icon={<Target size={18} />}
+                        >
+                            <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-5 border border-green-200">
+                                <div className="flex items-start gap-4">
+                                    <div className="w-16 h-16 rounded-full bg-green-500 text-white flex items-center justify-center text-2xl">
+                                        💡
+                                    </div>
+                                    <div className="flex-1">
+                                        <h3 className="font-bold text-lg text-green-800">
+                                            {language === 'hi' ? 'AI सुझाव: पहले भिन्न प्रशिक्षण करें' : 'AI Suggestion: Prioritize Fractions Training'}
+                                        </h3>
+                                        <p className="text-green-700 mt-2">
+                                            {language === 'hi' 
+                                                ? 'भिन्न-दशमलव प्रशिक्षण में सबसे अधिक ROI (340%) है। ₹45,000 के निवेश से 45 शिक्षकों में +26% सुधार होगा, जो ~2,250 छात्रों को प्रभावित करेगा।'
+                                                : 'Fractions-Decimals training has the highest ROI (340%). An investment of ₹45,000 will improve 45 teachers by +26%, impacting ~2,250 students.'}
+                                        </p>
+                                        <div className="mt-4 flex items-center gap-4">
+                                            <Button variant="primary" onClick={() => alert('Training scheduled!')}>
+                                                ✅ {language === 'hi' ? 'प्रशिक्षण शेड्यूल करें' : 'Schedule Training'}
+                                            </Button>
+                                            <Button variant="secondary" onClick={() => alert('Report generated!')}>
+                                                📊 {language === 'hi' ? 'रिपोर्ट डाउनलोड' : 'Download Report'}
+                                            </Button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </DashboardWidget>
                     </div>
                 )}
 
@@ -496,9 +667,9 @@ export function DIETDashboard({ user, onLogout }) {
                             title={language === 'hi' ? 'विषय-वार प्रदर्शन' : 'Subject-wise Performance'}
                             icon={<BarChart3 size={18} />}
                         >
-                            <div className="h-96 w-full" style={{ minHeight: '400px' }}>
+                            <div className="h-96">
                                 <ResponsiveContainer width="100%" height="100%">
-                                    <RadarChart data={data?.radar_data || []} cx="50%" cy="50%" outerRadius="80%">
+                                    <RadarChart data={data?.radar_data || []}>
                                         <PolarGrid />
                                         <PolarAngleAxis dataKey="subject" />
                                         <PolarRadiusAxis angle={30} domain={[0, 100]} />

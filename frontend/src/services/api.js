@@ -1,10 +1,5 @@
 // API service for SAHAYAK AI
-// Use environment variable for production, fallback to /api for local development with Vite proxy
-const API_BASE = import.meta.env.VITE_API_URL 
-    ? `${import.meta.env.VITE_API_URL}/api` 
-    : '/api';
-
-console.log('🔗 API Base URL:', API_BASE);
+const API_BASE = '/api';
 
 // Auth token management
 let authToken = localStorage.getItem('sahayak_token');
@@ -79,21 +74,6 @@ export const sosAPI = {
 
     getHistory: (limit = 10) =>
         apiFetch(`/sos/history?limit=${limit}`),
-
-    // SMS functionality
-    sendSMS: (phoneNumber, playbookSummary, activityName = null, steps = null, language = 'hi') =>
-        apiFetch('/sos/send-sms', {
-            method: 'POST',
-            body: JSON.stringify({
-                phone_number: phoneNumber,
-                playbook_summary: playbookSummary,
-                activity_name: activityName,
-                steps: steps,
-                language: language
-            }),
-        }),
-
-    getSMSHistory: () => apiFetch('/sos/sms-history'),
 };
 
 // Dashboard API

@@ -1,7 +1,6 @@
 """SOS routes for classroom emergency support."""
 from fastapi import APIRouter, Depends, HTTPException
-from pydantic import BaseModel
-from typing import Optional, List
+from typing import Optional
 import uuid
 
 from ..models.user import User
@@ -14,28 +13,9 @@ from ..services.cache_service import (
 from ..services.mistral_service import generate_playbook, extract_context_from_text
 from ..services.rag_service import get_rag_service
 from ..services.youtube_service import search_videos
-from ..services.sms_service import get_sms_service
 from ..data.mock_db import save_sos, update_sos_success, get_sos_history
 
 router = APIRouter(prefix="/api/sos", tags=["SOS"])
-
-
-class SMSRequest(BaseModel):
-    """Request model for sending SMS."""
-    phone_number: str
-    playbook_summary: str
-    activity_name: Optional[str] = None
-    steps: Optional[List[str]] = None
-    language: str = "hi"
-
-
-class SMSResponse(BaseModel):
-    """Response model for SMS sending."""
-    success: bool
-    message_id: str
-    status: str
-    phone_number: str
-    message_preview: str
 
 
 @router.post("/submit", response_model=SOSResponse)
@@ -145,6 +125,21 @@ async def submit_sos(
             "trust_score": best_match.get("success_rate", 0.8),
             "from_quick_fix": True
         }
+        
+        # Also get NCERT references and videos for quick fixes
+        ncert_refs = rag.get_ncert_references(
+            topic=context.topic or query_text,
+            grade=context.grade,
+            subject=context.subject
+        )
+        videos = await search_videos(
+            query=context.topic or query_text,
+            grade=context.grade,
+            language=context.language,
+            limit=3
+        )
+        playbook["ncert_refs"] = ncert_refs
+        playbook["videos"] = videos
         
         # Cache the response
         await set_cached_response(cache_key, playbook)
@@ -270,71 +265,3 @@ async def get_history(
     
     history = get_sos_history(current_user.id, limit)
     return {"history": history}
-
-
-@router.post("/send-sms", response_model=SMSResponse)
-async def send_sms_notification(
-    request: SMSRequest,
-    current_user: User = Depends(get_current_user)
-):
-    """Send playbook summary via SMS to teacher's phone."""
-    
-    sms_service = get_sms_service()
-    
-    # Build the SMS message
-    if request.language == "hi":
-        message = f"📚 SAHAYAK AI\n\n"
-        message += f"गतिविधि: {request.activity_name or 'शिक्षण योजना'}\n\n"
-        if request.steps:
-            message += "कदम:\n"
-            for i, step in enumerate(request.steps[:3], 1):
-                message += f"{i}. {step[:50]}{'...' if len(step) > 50 else ''}\n"
-        message += f"\n{request.playbook_summary[:100]}"
-    elif request.language == "kn":
-        message = f"📚 SAHAYAK AI\n\n"
-        message += f"ಚಟುವಟಿಕೆ: {request.activity_name or 'ಬೋಧನಾ ಯೋಜನೆ'}\n\n"
-        if request.steps:
-            message += "ಹಂತಗಳು:\n"
-            for i, step in enumerate(request.steps[:3], 1):
-                message += f"{i}. {step[:50]}{'...' if len(step) > 50 else ''}\n"
-        message += f"\n{request.playbook_summary[:100]}"
-    else:
-        message = f"📚 SAHAYAK AI\n\n"
-        message += f"Activity: {request.activity_name or 'Teaching Plan'}\n\n"
-        if request.steps:
-            message += "Steps:\n"
-            for i, step in enumerate(request.steps[:3], 1):
-                message += f"{i}. {step[:50]}{'...' if len(step) > 50 else ''}\n"
-        message += f"\n{request.playbook_summary[:100]}"
-    
-    # Send SMS
-    result = await sms_service.send_sms(
-        phone_number=request.phone_number,
-        message=message,
-        language=request.language
-    )
-    
-    print(f"📱 SMS sent to {request.phone_number}: {result}")
-    
-    return SMSResponse(
-        success=result["success"],
-        message_id=result["message_id"],
-        status=result["status"],
-        phone_number=request.phone_number,
-        message_preview=message[:160]
-    )
-
-
-@router.get("/sms-history")
-async def get_sms_history(
-    current_user: User = Depends(get_current_user)
-):
-    """Get SMS sending history (for demo purposes)."""
-    
-    sms_service = get_sms_service()
-    messages = sms_service.get_sent_messages()
-    
-    return {
-        "messages": messages[-10:],  # Last 10 messages
-        "total_sent": len(messages)
-    }

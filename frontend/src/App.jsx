@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { getAuthToken, setAuthToken, authAPI } from './services/api';
 import { userCache } from './services/offlineStorage';
 import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
@@ -75,20 +75,14 @@ function AppContent() {
         }
     };
 
-    const router = createBrowserRouter(
-        [
-            { path: "/", element: getDashboard() },
-            { path: "*", element: <Navigate to="/" replace /> }
-        ],
-        {
-            future: {
-                v7_startTransition: true,
-                v7_relativeSplatPath: true
-            }
-        }
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={getDashboard()} />
+                <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+        </BrowserRouter>
     );
-
-    return <RouterProvider router={router} />;
 }
 
 function App() {

@@ -7,7 +7,7 @@ settings = get_settings()
 
 YOUTUBE_API_URL = "https://www.googleapis.com/youtube/v3/search"
 
-# Mock video data for demo
+# Mock video data for demo - comprehensive coverage
 MOCK_VIDEOS = [
     {
         "id": "dQw4w9WgXcQ",
@@ -17,7 +17,7 @@ MOCK_VIDEOS = [
         "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/mqdefault.jpg",
         "language": "hi",
         "grade": 1,
-        "topic": "Counting"
+        "topic": "Counting numbers"
     },
     {
         "id": "abc123xyz",
@@ -27,67 +27,127 @@ MOCK_VIDEOS = [
         "thumbnail": "https://img.youtube.com/vi/abc123xyz/mqdefault.jpg",
         "language": "hi",
         "grade": 2,
-        "topic": "Addition"
+        "topic": "Addition subtraction"
     },
     {
-        "id": "def456uvw",
-        "title": "Hindi Varnamala | हिंदी वर्णमाला",
-        "channel": "Hindi Pathshala",
-        "duration": "12:00",
-        "thumbnail": "https://img.youtube.com/vi/def456uvw/mqdefault.jpg",
+        "id": "fraction001",
+        "title": "भिन्न (Fractions) क्या होते हैं? | Class 5-6 Maths",
+        "channel": "Vedantu Young Wonders",
+        "duration": "12:30",
+        "thumbnail": "https://img.youtube.com/vi/fraction001/mqdefault.jpg",
         "language": "hi",
-        "grade": 1,
-        "topic": "Alphabet"
+        "grade": 5,
+        "topic": "Fractions भिन्न"
     },
     {
-        "id": "ghi789rst",
-        "title": "Multiplication Tables Songs | पहाड़े गाना",
-        "channel": "Fun Learning Songs",
-        "duration": "6:45",
-        "thumbnail": "https://img.youtube.com/vi/ghi789rst/mqdefault.jpg",
+        "id": "fraction002",
+        "title": "भिन्नों का जोड़ और घटाव | Adding Fractions in Hindi",
+        "channel": "Maths Pathshala",
+        "duration": "15:00",
+        "thumbnail": "https://img.youtube.com/vi/fraction002/mqdefault.jpg",
         "language": "hi",
-        "grade": 3,
-        "topic": "Multiplication"
+        "grade": 6,
+        "topic": "Fractions addition भिन्न जोड़"
     },
     {
-        "id": "jkl012mno",
-        "title": "Fractions for Beginners | भिन्न क्या है?",
-        "channel": "Math Guru",
-        "duration": "10:20",
-        "thumbnail": "https://img.youtube.com/vi/jkl012mno/mqdefault.jpg",
+        "id": "science001",
+        "title": "मानव शरीर के अंग | Human Body Parts for Kids",
+        "channel": "Science Express Hindi",
+        "duration": "10:45",
+        "thumbnail": "https://img.youtube.com/vi/science001/mqdefault.jpg",
+        "language": "hi",
+        "grade": 5,
+        "topic": "Human body शरीर"
+    },
+    {
+        "id": "science002",
+        "title": "पाचन तंत्र कैसे काम करता है | Digestive System",
+        "channel": "Byju's Hindi",
+        "duration": "11:20",
+        "thumbnail": "https://img.youtube.com/vi/science002/mqdefault.jpg",
+        "language": "hi",
+        "grade": 6,
+        "topic": "Digestive system पाचन"
+    },
+    {
+        "id": "hindi001",
+        "title": "हिंदी व्याकरण - संज्ञा | Noun in Hindi Grammar",
+        "channel": "Hindi Guru",
+        "duration": "8:00",
+        "thumbnail": "https://img.youtube.com/vi/hindi001/mqdefault.jpg",
         "language": "hi",
         "grade": 4,
-        "topic": "Fractions"
+        "topic": "Noun संज्ञा grammar"
     },
     {
-        "id": "pqr345stu",
-        "title": "Reading Comprehension Tips | पढ़ने की समझ",
-        "channel": "Hindi Teacher",
-        "duration": "7:30",
-        "thumbnail": "https://img.youtube.com/vi/pqr345stu/mqdefault.jpg",
+        "id": "hindi002",
+        "title": "हिंदी कहानी पढ़ना सीखें | Hindi Story Reading",
+        "channel": "Pratham Books",
+        "duration": "6:30",
+        "thumbnail": "https://img.youtube.com/vi/hindi002/mqdefault.jpg",
         "language": "hi",
         "grade": 3,
-        "topic": "Reading"
+        "topic": "Reading comprehension पढ़ना"
     },
     {
-        "id": "vwx678yza",
-        "title": "Place Value Explained | स्थानीय मान",
-        "channel": "Math Basics",
-        "duration": "9:00",
-        "thumbnail": "https://img.youtube.com/vi/vwx678yza/mqdefault.jpg",
-        "language": "hi",
-        "grade": 3,
-        "topic": "Place Value"
-    },
-    {
-        "id": "bcd901efg",
-        "title": "English Speaking for Kids | बच्चों के लिए अंग्रेजी",
+        "id": "english001",
+        "title": "English Speaking Practice for Kids | अंग्रेजी बोलना सीखें",
         "channel": "English Express",
-        "duration": "11:15",
-        "thumbnail": "https://img.youtube.com/vi/bcd901efg/mqdefault.jpg",
+        "duration": "9:15",
+        "thumbnail": "https://img.youtube.com/vi/english001/mqdefault.jpg",
+        "language": "hi",
+        "grade": 4,
+        "topic": "English speaking vocabulary"
+    },
+    {
+        "id": "maths003",
+        "title": "गुणा पहाड़े 2-10 | Multiplication Tables Song",
+        "channel": "Fun Learning Hindi",
+        "duration": "7:00",
+        "thumbnail": "https://img.youtube.com/vi/maths003/mqdefault.jpg",
         "language": "hi",
         "grade": 3,
-        "topic": "Speaking"
+        "topic": "Multiplication tables गुणा"
+    },
+    {
+        "id": "maths004",
+        "title": "भाग कैसे करें | Division for Kids in Hindi",
+        "channel": "Maths Magic",
+        "duration": "10:00",
+        "thumbnail": "https://img.youtube.com/vi/maths004/mqdefault.jpg",
+        "language": "hi",
+        "grade": 4,
+        "topic": "Division भाग"
+    },
+    {
+        "id": "evs001",
+        "title": "पौधों के भाग | Parts of Plants EVS",
+        "channel": "EVS Learning",
+        "duration": "8:30",
+        "thumbnail": "https://img.youtube.com/vi/evs001/mqdefault.jpg",
+        "language": "hi",
+        "grade": 3,
+        "topic": "Plants पौधे"
+    },
+    {
+        "id": "general001",
+        "title": "Classroom Management Tips | कक्षा प्रबंधन",
+        "channel": "Teacher Training",
+        "duration": "12:00",
+        "thumbnail": "https://img.youtube.com/vi/general001/mqdefault.jpg",
+        "language": "hi",
+        "grade": 0,
+        "topic": "Teaching classroom management attention"
+    },
+    {
+        "id": "general002",
+        "title": "बच्चों का ध्यान कैसे आकर्षित करें | Student Engagement",
+        "channel": "Shiksha Sarthi",
+        "duration": "9:45",
+        "thumbnail": "https://img.youtube.com/vi/general002/mqdefault.jpg",
+        "language": "hi",
+        "grade": 0,
+        "topic": "Attention engagement focus"
     }
 ]
 
@@ -172,17 +232,24 @@ def search_mock_videos(
     for video in MOCK_VIDEOS:
         score = 0
         
-        # Check topic match
-        if video["topic"].lower() in query_lower or query_lower in video["topic"].lower():
-            score += 2
+        # Check topic match (split by spaces for partial match)
+        topic_words = video["topic"].lower().split()
+        query_words = query_lower.split()
+        
+        for qw in query_words:
+            for tw in topic_words:
+                if qw in tw or tw in qw:
+                    score += 2
         
         # Check title match
-        if any(word in video["title"].lower() for word in query_lower.split()):
+        if any(word in video["title"].lower() for word in query_words if len(word) > 2):
             score += 1
         
         # Check grade match
         if grade and video["grade"] == grade:
-            score += 1
+            score += 1.5
+        elif grade and video["grade"] == 0:  # General videos
+            score += 0.5
         elif grade and abs(video["grade"] - grade) <= 1:
             score += 0.5
         
@@ -199,5 +266,14 @@ def search_mock_videos(
     
     # Sort by relevance
     results.sort(key=lambda x: x["relevance_score"], reverse=True)
+    
+    # If no results, return some default educational videos
+    if not results:
+        defaults = [v for v in MOCK_VIDEOS if v["grade"] == 0 or (grade and abs(v["grade"] - grade) <= 2)][:limit]
+        results = [{
+            **v,
+            "embed_url": f"https://www.youtube.com/embed/{v['id']}",
+            "relevance_score": 0.5
+        } for v in defaults]
     
     return results[:limit]

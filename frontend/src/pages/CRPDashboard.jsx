@@ -198,6 +198,7 @@ export function CRPDashboard({ user, onLogout }) {
                         { id: 'overview', label: `📊 ${t('overview')}`, icon: <TrendingUp size={16} /> },
                         { id: 'interventions', label: `🎯 ${language === 'hi' ? 'हस्तक्षेप' : 'Interventions'}` },
                         { id: 'teachers', label: `👨‍🏫 ${t('teachers')}` },
+                        { id: 'visit-planner', label: `🗺️ ${language === 'hi' ? 'विज़िट प्लानर' : 'Visit Planner'}` },
                         { id: 'insights', label: `💡 ${language === 'hi' ? 'AI अंतर्दृष्टि' : 'AI Insights'}` },
                         { id: 'alerts', label: `🔔 ${language === 'hi' ? 'अलर्ट' : 'Alerts'} (${data?.alerts?.length || 0})` },
                     ].map((tab) => (
@@ -392,6 +393,151 @@ export function CRPDashboard({ user, onLogout }) {
                             </table>
                         </div>
                     </DashboardWidget>
+                )}
+
+                {/* Smart Visit Planner Tab - AI-Optimized Field Visit Schedule */}
+                {selectedView === 'visit-planner' && (
+                    <div className="space-y-6">
+                        {/* AI Route Recommendation */}
+                        <div className="bg-gradient-to-r from-emerald-500 to-teal-600 rounded-2xl p-6 text-white shadow-xl">
+                            <div className="flex items-start justify-between">
+                                <div>
+                                    <h3 className="text-lg font-bold flex items-center gap-2">
+                                        🗺️ {language === 'hi' ? 'AI-अनुशंसित विज़िट प्लान' : 'AI-Recommended Visit Plan'}
+                                    </h3>
+                                    <p className="text-emerald-100 text-sm mt-1">
+                                        {language === 'hi' 
+                                            ? 'आज के लिए अनुकूलित मार्ग - 3 स्कूल, ~18 km'
+                                            : 'Optimized route for today - 3 schools, ~18 km'}
+                                    </p>
+                                </div>
+                                <div className="text-right">
+                                    <p className="text-3xl font-bold">3</p>
+                                    <p className="text-emerald-200 text-xs">{language === 'hi' ? 'प्राथमिक विज़िट' : 'Priority Visits'}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Visit Schedule */}
+                        <DashboardWidget
+                            title={language === 'hi' ? 'आज का विज़िट शेड्यूल' : "Today's Visit Schedule"}
+                            icon={<Calendar size={18} />}
+                        >
+                            <div className="space-y-4">
+                                {[
+                                    {
+                                        time: '9:00 AM',
+                                        school: 'GPS Rampur',
+                                        teacher: 'Anita Kumari',
+                                        issue: language === 'hi' ? 'भिन्न पढ़ाने में कठिनाई' : 'Difficulty teaching fractions',
+                                        priority: 'high',
+                                        distance: '5 km',
+                                        aiReason: language === 'hi' 
+                                            ? '5 दिनों से निष्क्रिय + सबसे नज़दीक' 
+                                            : '5 days inactive + nearest location'
+                                    },
+                                    {
+                                        time: '11:30 AM',
+                                        school: 'GPS Lakhanpur',
+                                        teacher: 'Rajesh Singh',
+                                        issue: language === 'hi' ? 'स्थानीय मान में बार-बार असफलता' : 'Repeated failures in Place Value',
+                                        priority: 'high',
+                                        distance: '7 km',
+                                        aiReason: language === 'hi' 
+                                            ? '4 SOS भिन्न विषय पर + रास्ते में' 
+                                            : '4 SOS on same topic + on route'
+                                    },
+                                    {
+                                        time: '2:00 PM',
+                                        school: 'GPS Sundarpur',
+                                        teacher: 'Meena Devi',
+                                        issue: language === 'hi' ? 'सफलता दर 45% से कम' : 'Success rate below 45%',
+                                        priority: 'medium',
+                                        distance: '6 km',
+                                        aiReason: language === 'hi' 
+                                            ? 'लंबे समय से विज़िट नहीं + सुधार संभव' 
+                                            : 'Long overdue visit + improvement potential'
+                                    }
+                                ].map((visit, i) => (
+                                    <div key={i} className={`p-4 rounded-xl border-2 ${
+                                        visit.priority === 'high' ? 'border-red-200 bg-red-50' : 'border-yellow-200 bg-yellow-50'
+                                    }`}>
+                                        <div className="flex items-start justify-between">
+                                            <div className="flex items-start gap-4">
+                                                <div className="text-center">
+                                                    <div className={`w-12 h-12 rounded-full flex items-center justify-center text-white font-bold ${
+                                                        visit.priority === 'high' ? 'bg-red-500' : 'bg-yellow-500'
+                                                    }`}>
+                                                        {i + 1}
+                                                    </div>
+                                                    <p className="text-xs text-slate-500 mt-1">{visit.distance}</p>
+                                                </div>
+                                                <div>
+                                                    <div className="flex items-center gap-2">
+                                                        <span className="font-medium text-slate-500">{visit.time}</span>
+                                                        <span className="text-slate-300">•</span>
+                                                        <span className="font-bold text-slate-800">{visit.school}</span>
+                                                    </div>
+                                                    <p className="font-semibold text-lg">{visit.teacher}</p>
+                                                    <p className="text-sm text-slate-600 mt-1">{visit.issue}</p>
+                                                    <div className="flex items-center gap-1 mt-2 text-xs text-emerald-600 bg-emerald-50 px-2 py-1 rounded-full w-fit">
+                                                        <Lightbulb size={12} />
+                                                        <span>AI: {visit.aiReason}</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="flex flex-col gap-2">
+                                                <Button size="sm" variant="primary" onClick={() => handleAction('Navigate', visit.school)}>
+                                                    🧭 {language === 'hi' ? 'नेविगेट' : 'Navigate'}
+                                                </Button>
+                                                <Button size="sm" variant="secondary" onClick={() => handleAction('Reschedule', visit.teacher)}>
+                                                    📅 {language === 'hi' ? 'बदलें' : 'Reschedule'}
+                                                </Button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+
+                            {/* Summary */}
+                            <div className="mt-6 p-4 bg-gradient-to-r from-slate-100 to-slate-50 rounded-xl">
+                                <div className="grid grid-cols-3 gap-4 text-center">
+                                    <div>
+                                        <p className="text-2xl font-bold text-emerald-600">~18 km</p>
+                                        <p className="text-xs text-slate-500">{language === 'hi' ? 'कुल दूरी' : 'Total Distance'}</p>
+                                    </div>
+                                    <div>
+                                        <p className="text-2xl font-bold text-blue-600">~5 hrs</p>
+                                        <p className="text-xs text-slate-500">{language === 'hi' ? 'अनुमानित समय' : 'Estimated Time'}</p>
+                                    </div>
+                                    <div>
+                                        <p className="text-2xl font-bold text-purple-600">₹45</p>
+                                        <p className="text-xs text-slate-500">{language === 'hi' ? 'यात्रा खर्च' : 'Travel Cost'}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </DashboardWidget>
+
+                        {/* What to Carry */}
+                        <DashboardWidget
+                            title={language === 'hi' ? '📦 साथ ले जाएं' : '📦 What to Carry'}
+                            icon={<CheckCircle2 size={18} />}
+                        >
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                                {[
+                                    { item: language === 'hi' ? 'भिन्न TLM किट' : 'Fractions TLM Kit', for: 'Anita' },
+                                    { item: language === 'hi' ? 'स्थानीय मान चार्ट' : 'Place Value Chart', for: 'Rajesh' },
+                                    { item: language === 'hi' ? 'पठन कार्ड' : 'Reading Cards', for: 'Meena' },
+                                    { item: language === 'hi' ? 'प्रशंसा प्रमाणपत्र' : 'Appreciation Cert', for: 'Top Teacher' }
+                                ].map((item, i) => (
+                                    <div key={i} className="bg-slate-50 rounded-lg p-3 border border-slate-200">
+                                        <p className="font-medium text-slate-800">{item.item}</p>
+                                        <p className="text-xs text-slate-500">{language === 'hi' ? 'के लिए:' : 'For:'} {item.for}</p>
+                                    </div>
+                                ))}
+                            </div>
+                        </DashboardWidget>
+                    </div>
                 )}
 
                 {/* AI Insights Tab */}

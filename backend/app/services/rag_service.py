@@ -87,18 +87,22 @@ class MockRAGService:
         """Get NCERT references for a topic."""
         
         topic_lower = topic.lower()
+        topic_words = topic_lower.split()
         results = []
         
         for ref in self.ncert_refs:
             score = 0
             
-            # Check topic match
-            if ref.get("topic", "").lower() in topic_lower or topic_lower in ref.get("topic", "").lower():
-                score += 2
+            # Check topic match (more flexible)
+            ref_topic = ref.get("topic", "").lower()
+            ref_chapter = ref.get("chapter", "").lower()
             
-            # Check chapter match
-            if topic_lower in ref.get("chapter", "").lower():
-                score += 1
+            for word in topic_words:
+                if len(word) > 2:  # Skip short words
+                    if word in ref_topic:
+                        score += 2
+                    if word in ref_chapter:
+                        score += 1
             
             # Check grade match
             if grade and ref.get("grade") == grade:
@@ -108,7 +112,7 @@ class MockRAGService:
             
             # Check subject match
             if subject and ref.get("subject", "").lower() == subject.lower():
-                score += 1
+                score += 1.5
             
             if score > 0:
                 results.append({
@@ -117,6 +121,11 @@ class MockRAGService:
                 })
         
         results.sort(key=lambda x: x["relevance_score"], reverse=True)
+        
+        # If no results, return grade-matched refs
+        if not results and grade:
+            defaults = [r for r in self.ncert_refs if r.get("grade") == grade][:limit]
+            results = [{**r, "relevance_score": 0.4} for r in defaults]
         
         return results[:limit]
     
